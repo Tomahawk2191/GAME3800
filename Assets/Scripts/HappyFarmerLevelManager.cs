@@ -11,7 +11,8 @@ public class HappyFarmerLevelManager : MonoBehaviour
     public float gameOverDuration;
     public string nextScene;
 
-    private float timer;
+    [HideInInspector]
+    public static float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
