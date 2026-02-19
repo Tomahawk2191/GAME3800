@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-2607341201677788855
+--- !u!114 &-8179034862186655292
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,13 +20,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_YFAM_RoofTiles
+  m_Name: ArcadeRugSmall
   m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
-  m_Parent: {fileID: 2100000, guid: 228e71671d996fe4fa740a276a4e3fc1, type: 2}
+  m_Parent: {fileID: 2100000, guid: 188bc58da9df64d99855d64cdc5d9cb9, type: 2}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _METALLICSPECGLOSSMAP
-  - _NORMALMAP
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -40,13 +38,13 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: ce3a3d300ea6d7b4681dd213a1f5c7f1, type: 3}
-        m_Scale: {x: 1, y: 1}
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 31121e7e63aff463d8716c42052473fd, type: 3}
+        m_Scale: {x: 1, y: 0.55}
         m_Offset: {x: 0, y: 0}
-    - _SpecGlossMap:
-        m_Texture: {fileID: 2800000, guid: 63ca3439f6c4e584dbc2d42c04794ced, type: 3}
-        m_Scale: {x: 1, y: 1}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 31121e7e63aff463d8716c42052473fd, type: 3}
+        m_Scale: {x: 1, y: 0.55}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats: []
