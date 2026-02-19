@@ -99,5 +99,6 @@ AssetOrigin:
   productId: 64852
   packageName: Terrain Tools
   packageVersion: 2.8
-  assetPath: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Cliff (Grassy)-png.png
+  assetPath: Assets/Imports/Tom's Terrain Tools/Unity Terrain Assets/Textures/Cliff
+    (Grassy)-png.png
   uploadId: 661279

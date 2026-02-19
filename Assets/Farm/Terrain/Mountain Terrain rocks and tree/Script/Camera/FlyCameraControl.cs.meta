@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a4811686af1b94242b702a20d4c6e212
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 97905
+  packageName: Mountain Terrain, Rocks and Tree
+  packageVersion: 3.0
+  assetPath: Assets/Mountain Terrain rocks and tree/Script/Camera/FlyCameraControl.cs
+  uploadId: 658244
