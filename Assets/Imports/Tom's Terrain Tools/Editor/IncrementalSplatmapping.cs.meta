@@ -15,5 +15,5 @@ AssetOrigin:
   productId: 64852
   packageName: Terrain Tools
   packageVersion: 2.8
-  assetPath: Assets/Tom's Terrain Tools/Editor/IncrementalSplatmapping.cs
+  assetPath: Assets/Imports/Tom's Terrain Tools/Editor/IncrementalSplatmapping.cs
   uploadId: 661279
