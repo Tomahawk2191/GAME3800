@@ -1,21 +1,25 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ArcadeCabinetBehavior : MonoBehaviour
+public class ArcadeCabinetBehavior : MonoBehaviour, IPointerDownHandler
 {
-    public string nextScene;
+    public SceneField nextScene;
 
     public RawImage arcadeCabinetScreen;
     public Texture2D initialScreen;
     public Texture2D nextScreen;
 
     private bool screenTransitioned;
+    private bool coinInserted = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         ResetScreen();
+        BeginAsyncLoad();
     }
 
     // Update is called once per frame
@@ -24,20 +28,14 @@ public class ArcadeCabinetBehavior : MonoBehaviour
         UpdateScreen();
     }
 
-    private void OnMouseDown()
+    public void OnPointerDown(PointerEventData eventData)
     {
         if (CoinBehavior.hasCoin)
         {
-            SceneTransition();
+            coinInserted = true;
         }
     }
 
-    private void SceneTransition()
-    {
-        // This is where the logic for the scene transition will go. Most likely cinemachine camera movement and screen changes.
-        
-        SceneManager.LoadScene(nextScene);
-    }
 
     private void ResetScreen()
     {
@@ -51,5 +49,19 @@ public class ArcadeCabinetBehavior : MonoBehaviour
         {
             arcadeCabinetScreen.texture = nextScreen;
         }
+    }
+
+    private IEnumerator BeginAsyncLoad()
+    {
+        AsyncOperation operation = SceneManager.LoadSceneAsync(nextScene);
+        
+        operation.allowSceneActivation = false;
+
+        while(!operation.isDone || !coinInserted)
+        {
+            yield return null;
+        }
+
+        operation.allowSceneActivation = true;
     }
 }
