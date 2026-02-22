@@ -1022,6 +1022,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 478939845}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &493233218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2013260281687004935, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+  m_PrefabInstance: {fileID: 1844454689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &493233220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 493233218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d687b51cdc507bc44a5d083487193027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  colliderToHit: {fileID: 1860118197}
+  distance: 100
 --- !u!1 &499970864
 GameObject:
   m_ObjectHideFlags: 0
@@ -4402,6 +4421,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5376385710336514208, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: MouseSensitivity.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376385710336514208, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: MouseSensitivity.y
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6446293664188125128, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
@@ -4446,11 +4473,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3169338766507075959, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2013260281687004935, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 493233220}
   m_SourcePrefab: {fileID: 100100000, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+--- !u!65 &1860118197 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 8686987107971379182, guid: ecebb0774ed1fdf4d9cfee8a0b52979b, type: 3}
+  m_PrefabInstance: {fileID: 136090348}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1875122788
 GameObject:
   m_ObjectHideFlags: 0
