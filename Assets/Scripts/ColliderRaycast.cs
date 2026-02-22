@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ColliderRaycast : MonoBehaviour
 {
@@ -6,6 +7,12 @@ public class ColliderRaycast : MonoBehaviour
     public float distance = 100f;
 
     Ray ray;
+    private CoinBehavior coin;
+
+    private void Start()
+    {
+        coin = GameObject.FindFirstObjectByType<CoinBehavior>();
+    }
 
     private void Update()
     {
@@ -17,12 +24,15 @@ public class ColliderRaycast : MonoBehaviour
     {
         if(colliderToHit.Raycast(ray, out RaycastHit hit, distance))
         {
-            CoinBehavior coin = colliderToHit.gameObject.GetComponent<CoinBehavior>();
+            coin.Raise();
 
-            if (coin != null)
+            if(Mouse.current.leftButton.wasPressedThisFrame)
             {
-                Debug.Log("There's a coin there");
+                coin.Collect();
             }
+        } else
+        {
+            coin.Lower();
         }
     }
 }

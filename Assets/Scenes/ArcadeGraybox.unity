@@ -170,6 +170,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 4812238488846415844, guid: ecebb0774ed1fdf4d9cfee8a0b52979b, type: 3}
+      propertyPath: dropSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812238488846415844, guid: ecebb0774ed1fdf4d9cfee8a0b52979b, type: 3}
+      propertyPath: liftSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4812238488846415844, guid: ecebb0774ed1fdf4d9cfee8a0b52979b, type: 3}
+      propertyPath: liftAmount
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5400737485824108411, guid: ecebb0774ed1fdf4d9cfee8a0b52979b, type: 3}
       propertyPath: m_Mesh
       value: 
