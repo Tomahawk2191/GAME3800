@@ -18,30 +18,28 @@ public class CoinBehavior : MonoBehaviour
         initialPosition = coinVisual.position;
     }
 
-    private void OnMouseEnter()
-    {
-        coinVisual.position = Vector3.Lerp(
-            coinVisual.transform.position,
-            new Vector3(initialPosition.x, initialPosition.y + liftAmount, initialPosition.z),
-            liftSpeed * Time.deltaTime);
-    }
-
-    private void OnMouseExit()
+    private void OnDestroy()
     {
         coinVisual.position = Vector3.Lerp(coinVisual.position, initialPosition, dropSpeed * Time.deltaTime);
     }
 
-    private void OnMouseDown()
+    public void Raise()
     {
-        Destroy(gameObject);
+        coinVisual.position = Vector3.Lerp(
+        coinVisual.position,
+        new Vector3(initialPosition.x, initialPosition.y + liftAmount, initialPosition.z),
+        liftSpeed * Time.deltaTime);
     }
 
-    private void OnDestroy()
+    public void Lower()
+    {
+        coinVisual.position = Vector3.Lerp(coinVisual.position, initialPosition, dropSpeed * Time.deltaTime);
+
+    }
+
+    public void Collect()
     {
         hasCoin = true;
-        if(pickupSFX)
-        {
-            AudioSource.PlayClipAtPoint(pickupSFX, Camera.main.transform.position);
-        }
+        Destroy(gameObject);
     }
 }
