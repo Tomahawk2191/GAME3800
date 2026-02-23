@@ -21,14 +21,16 @@ public class CropSpawner : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        SpawnCrops();
+        StartCoroutine("SpawnCrops");
     }
 
     private IEnumerator SpawnCrops()
     {
+        Debug.Log("Starting the loop");
         while(HappyFarmerLevelManager.timer > 0)
         {
             yield return new WaitForSeconds(spawnVals.frequency);
+            Debug.Log("Instantiating...");
             Instantiate(crop, new Vector3(Random.Range(spawnVals.minXValue, spawnVals.maxXValue), transform.position.y, Random.Range(spawnVals.minZValue, spawnVals.maxZValue)), transform.rotation);
         }
         yield return null;
