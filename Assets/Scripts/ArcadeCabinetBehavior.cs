@@ -1,23 +1,27 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ArcadeCabinetBehavior : MonoBehaviour, IPointerDownHandler
+public class ArcadeCabinetBehavior : MonoBehaviour
 {
     public SceneField nextScene;
+    public Collider player;
+    public float maxDistance = 5f;
 
     public RawImage arcadeCabinetScreen;
     public Texture2D initialScreen;
     public Texture2D nextScreen;
 
     private bool screenTransitioned;
+    private Ray playerDetection;
     private bool coinInserted = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        playerDetection = new Ray(transform.position, transform.forward);
         ResetScreen();
         BeginAsyncLoad();
     }
@@ -26,16 +30,12 @@ public class ArcadeCabinetBehavior : MonoBehaviour, IPointerDownHandler
     void Update()
     {
         UpdateScreen();
-    }
 
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        if (CoinBehavior.hasCoin)
+        if(CoinBehavior.hasCoin)
         {
-            coinInserted = true;
+            CheckPlayer();
         }
     }
-
 
     private void ResetScreen()
     {
@@ -51,6 +51,16 @@ public class ArcadeCabinetBehavior : MonoBehaviour, IPointerDownHandler
         }
     }
 
+    private void CheckPlayer()
+    {
+        if(player.Raycast(playerDetection, out RaycastHit hitInfo, maxDistance) && Mouse.current.leftButton.wasPressedThisFrame) 
+        {
+            Debug.Log("Raycast has hit");
+            coinInserted = true;
+            SceneManager.LoadScene(nextScene);
+        }
+    }
+
     private IEnumerator BeginAsyncLoad()
     {
         AsyncOperation operation = SceneManager.LoadSceneAsync(nextScene);
@@ -63,5 +73,6 @@ public class ArcadeCabinetBehavior : MonoBehaviour, IPointerDownHandler
         }
 
         operation.allowSceneActivation = true;
+        Debug.Log("Scene gets loaded here");
     }
 }
