@@ -16,8 +16,11 @@ public class ColliderRaycast : MonoBehaviour
 
     private void Update()
     {
-        ray = new Ray(transform.position, transform.forward);
-        CheckForColliders();
+        if(!CoinBehavior.hasCoin)
+        {
+            ray = new Ray(transform.position, transform.forward);
+            CheckForColliders();
+        }
     }
 
     private void CheckForColliders()
