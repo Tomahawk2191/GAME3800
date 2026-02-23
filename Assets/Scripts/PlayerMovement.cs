@@ -1,11 +1,9 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float MoveSmoothTime;
     public float MoveSpeed;
-    public InputActionReference MoveActionReference;
 
     private CharacterController characterController;
     private Vector3 currentMoveVelocity;
@@ -13,34 +11,27 @@ public class PlayerMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (!MoveActionReference)
-        {
-           Debug.LogError("Move Action Reference is not set! Use Player/Move for the player model."); 
-        }
-        
         characterController = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector2 axisVector = MoveActionReference.action.ReadValue<Vector2>(); 
-        
-        Vector3 playerInput = new Vector3(
-            axisVector.x,
+        Vector3 PlayerInput = new Vector3(
+            Input.GetAxisRaw("Horizontal"), 
             0f, 
-            axisVector.y);
+            Input.GetAxisRaw("Vertical"));
 
-        if (playerInput.magnitude > 1f)
+        if (PlayerInput.magnitude > 1f)
         {
-            playerInput.Normalize();
+            PlayerInput.Normalize();
         }
 
-        Vector3 moveVector = transform.TransformDirection(playerInput);
+        Vector3 MoveVector = transform.TransformDirection(PlayerInput);
 
         currentMoveVelocity = Vector3.SmoothDamp(
             currentMoveVelocity,
-            moveVector * MoveSpeed,
+            MoveVector * MoveSpeed,
             ref moveDampVelocity,
             MoveSmoothTime);
 
