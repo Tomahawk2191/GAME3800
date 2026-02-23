@@ -1,11 +1,9 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerLook : MonoBehaviour
 {
     public Transform PlayerCamera;
     public Vector2 MouseSensitivity;
-    public InputActionReference LookActionReference;
 
     private Vector2 rotationXY;
 
@@ -28,12 +26,10 @@ public class PlayerLook : MonoBehaviour
             return;
         }
 
-        Vector2 mouseAxis = LookActionReference.action.ReadValue<Vector2>();
-        
-        var mouseInput = new Vector2(mouseAxis.x, mouseAxis.y);
+        Vector2 MouseInput = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
 
-        rotationXY.x -= mouseInput.y * MouseSensitivity.y;
-        rotationXY.y += mouseInput.x * MouseSensitivity.x;
+        rotationXY.x -= MouseInput.y * MouseSensitivity.y;
+        rotationXY.y += MouseInput.x * MouseSensitivity.x;
 
         rotationXY.x = Mathf.Clamp(rotationXY.x, -90f, 90f);
 

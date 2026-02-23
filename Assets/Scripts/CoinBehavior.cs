@@ -1,7 +1,6 @@
 using UnityEngine;
 
 public class CoinBehavior : MonoBehaviour
-
 {
     public AudioClip pickupSFX;
     public Transform coinVisual;
@@ -13,7 +12,6 @@ public class CoinBehavior : MonoBehaviour
     public static bool hasCoin = false;
 
     private Vector3 initialPosition;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,10 +20,7 @@ public class CoinBehavior : MonoBehaviour
 
     private void OnDestroy()
     {
-        if(pickupSFX)
-        {
-            AudioSource.PlayClipAtPoint(pickupSFX, Camera.main.transform.position);
-        }
+        coinVisual.position = Vector3.Lerp(coinVisual.position, initialPosition, dropSpeed * Time.deltaTime);
     }
 
     public void Raise()
