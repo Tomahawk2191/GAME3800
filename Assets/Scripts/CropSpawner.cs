@@ -1,6 +1,7 @@
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.InputSystem.LowLevel;
 
 public class CropSpawner : MonoBehaviour
 {
@@ -18,19 +19,31 @@ public class CropSpawner : MonoBehaviour
     private GameObject crop;
     [SerializeField]
     private spawnValues spawnVals;
+
+    private float count;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        StartCoroutine("SpawnCrops");
+        count = spawnVals.frequency;
     }
 
-    private IEnumerator SpawnCrops()
+    private void Update()
     {
-        while(HappyFarmerLevelManager.timer > 0)
+        if(HappyFarmerLevelManager.timer > 0)
         {
-            yield return new WaitForSeconds(spawnVals.frequency);
-            Instantiate(crop, new Vector3(Random.Range(spawnVals.minXValue, spawnVals.maxXValue), transform.position.y, Random.Range(spawnVals.minZValue, spawnVals.maxZValue)), transform.rotation);
+            SpawnCrops();
         }
-        yield return null;
+    }
+
+    private void SpawnCrops()
+    {
+        if(count <= 0)
+        {
+            Instantiate(crop, new Vector3(Random.Range(spawnVals.minXValue, spawnVals.maxXValue), transform.position.y, Random.Range(spawnVals.minZValue, spawnVals.maxZValue)), transform.rotation);
+            count = spawnVals.frequency;
+        } else
+        {
+            count -= Time.deltaTime;
+        }
     }
 }
