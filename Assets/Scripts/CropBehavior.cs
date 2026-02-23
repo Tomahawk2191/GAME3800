@@ -5,6 +5,7 @@ public class CropBehavior : MonoBehaviour
 {
     public AudioClip pickupSFX;
     public int score;
+    public GameObject fullCrop;
 
     [HideInInspector]
     public static int totalScore = 0;
@@ -14,7 +15,7 @@ public class CropBehavior : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             totalScore += score;
-            Destroy(gameObject);
+            Destroy(fullCrop);
         }
     }
 

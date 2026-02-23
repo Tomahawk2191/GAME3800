@@ -70,6 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CropBehavior
   pickupSFX: {fileID: 0}
   score: 100
+  fullCrop: {fileID: 8734449236458783331}
 --- !u!1 &8734449236458783331
 GameObject:
   m_ObjectHideFlags: 0
