@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+guid: b2b2a77809ce445e5a51f643f7be541f
+=======
 guid: a9e34d401b679244db2bca8ee9c5b108
+>>>>>>> main
 DefaultImporter:
   externalObjects: {}
   userData: 
@@ -10,6 +14,11 @@ AssetOrigin:
   productId: 97905
   packageName: Mountain Terrain, Rocks and Tree
   packageVersion: 3.0
+<<<<<<< HEAD
   assetPath: Assets/Mountain Terrain rocks and tree/Documentation/Document mountain
     terrain, rocks and tree.pdf
+=======
+  assetPath: Assets/Imports/Mountain Terrain rocks and tree/Documentation/Document
+    mountain terrain, rocks and tree.pdf
+>>>>>>> main
   uploadId: 658244
