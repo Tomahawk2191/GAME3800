@@ -1,9 +1,11 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerLook : MonoBehaviour
 {
     public Transform PlayerCamera;
     public Vector2 MouseSensitivity;
+    public InputActionReference LookActionReference;
 
     private Vector2 rotationXY;
 
