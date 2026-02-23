@@ -46,5 +46,6 @@ public class CoinBehavior : MonoBehaviour
     {
         hasCoin = true;
         Destroy(gameObject);
+        Destroy(coinVisual.gameObject);
     }
 }
