@@ -9,7 +9,13 @@ public class PlayerLook : MonoBehaviour
 
     void Start()
     {
-        
+        if (!LookActionReference)
+        {
+            Debug.LogError("Look Action Reference is not set! Use Player/Look for the player model.");
+        }
+
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame

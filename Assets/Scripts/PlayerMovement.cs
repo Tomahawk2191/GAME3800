@@ -1,13 +1,18 @@
+using UnityEditor.ShaderGraph.Internal;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     public float MoveSmoothTime;
     public float MoveSpeed;
+    public float gravityStrength = 9.81f;
+    public InputActionReference MoveActionReference;
 
     private CharacterController characterController;
     private Vector3 currentMoveVelocity;
     private Vector3 moveDampVelocity;
+
+    private Vector3 currentForceVelocity;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -36,5 +41,15 @@ public class PlayerMovement : MonoBehaviour
             MoveSmoothTime);
 
         characterController.Move(currentMoveVelocity * Time.deltaTime);
+
+        if(!characterController.isGrounded)
+        {
+            currentForceVelocity.y -= gravityStrength * Time.deltaTime; 
+        } else
+        {
+            currentForceVelocity.y = -2f;
+        }
+
+        characterController.Move(currentForceVelocity * Time.deltaTime);
     }
 }
