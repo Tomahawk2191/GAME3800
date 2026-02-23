@@ -9,7 +9,7 @@ public class HappyFarmerLevelManager : MonoBehaviour
     public TMP_Text timerText;
     public TMP_Text gameOverText;
     public float gameOverDuration;
-    public string nextScene;
+    public SceneField nextScene;
 
     [HideInInspector]
     public static float timer;
