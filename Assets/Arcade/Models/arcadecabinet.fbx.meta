@@ -3,7 +3,47 @@ guid: ef262e46b826e354294ab9b8159b299c
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arcadebase
+    second: {fileID: 2100000, guid: f4a224443082043f084f5adc65bcaf51, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: arcadeborder
+    second: {fileID: 2100000, guid: bf7a60a433ffc47f7b5b69aa49581ccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: button1
+    second: {fileID: 2100000, guid: 521f30c3fe2f74216b2e818511c0800e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: button2
+    second: {fileID: 2100000, guid: 42826a3b54711406ea8883a3fe2dc5b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: button3
+    second: {fileID: 2100000, guid: 7ba2422abdf8147cea35d657fe7cbd54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: button4
+    second: {fileID: 2100000, guid: 97b52bedff1d94502b7800ec58a3be2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: coincollector
+    second: {fileID: 2100000, guid: 68ccefe077178444f85acc26413c3900, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: screen
+    second: {fileID: 2100000, guid: c59ba3a2f6e704b2cb094b3b1963f140, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
