@@ -23,15 +23,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        var moveAction = MoveActionReference.action.ReadValue<Vector2>();
         Vector3 PlayerInput = new Vector3(
-            Input.GetAxisRaw("Horizontal"), 
-            0f, 
-            Input.GetAxisRaw("Vertical"));
-
-        if (PlayerInput.magnitude > 1f)
-        {
-            PlayerInput.Normalize();
-        }
+            moveAction.x,
+            0f,
+            moveAction.y).normalized;
 
         Vector3 MoveVector = transform.TransformDirection(PlayerInput);
 

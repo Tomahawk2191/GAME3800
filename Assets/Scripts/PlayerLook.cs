@@ -6,7 +6,6 @@ public class PlayerLook : MonoBehaviour
     public Transform PlayerCamera;
     public Vector2 MouseSensitivity;
     public InputActionReference LookActionReference;
-
     private Vector2 rotationXY;
 
     void Start()
@@ -28,10 +27,10 @@ public class PlayerLook : MonoBehaviour
             return;
         }
 
-        Vector2 MouseInput = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+        var playerLook = LookActionReference.action.ReadValue<Vector2>();
 
-        rotationXY.x -= MouseInput.y * MouseSensitivity.y;
-        rotationXY.y += MouseInput.x * MouseSensitivity.x;
+        rotationXY.x -= playerLook.y * MouseSensitivity.y;
+        rotationXY.y += playerLook.x * MouseSensitivity.x;
 
         rotationXY.x = Mathf.Clamp(rotationXY.x, -90f, 90f);
 
