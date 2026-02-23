@@ -1,9 +1,6 @@
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
 
-public class CoinBehavior : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
-
+public class CoinBehavior : MonoBehaviour
 {
     public AudioClip pickupSFX;
     public Transform coinVisual;
@@ -15,45 +12,36 @@ public class CoinBehavior : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     public static bool hasCoin = false;
 
     private Vector3 initialPosition;
-
-    private bool hoveringCoin = false;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         initialPosition = coinVisual.position;
     }
 
-    void Update()
+    private void OnMouseEnter()
     {
-        if(hoveringCoin && Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            hasCoin = true;
-            Destroy(gameObject);
-        }
+        coinVisual.position = Vector3.Lerp(
+            coinVisual.transform.position,
+            new Vector3(initialPosition.x, initialPosition.y + liftAmount, initialPosition.z),
+            liftSpeed * Time.deltaTime);
+    }
+
+    private void OnMouseExit()
+    {
+        coinVisual.position = Vector3.Lerp(coinVisual.position, initialPosition, dropSpeed * Time.deltaTime);
+    }
+
+    private void OnMouseDown()
+    {
+        Destroy(gameObject);
     }
 
     private void OnDestroy()
     {
+        hasCoin = true;
         if(pickupSFX)
         {
             AudioSource.PlayClipAtPoint(pickupSFX, Camera.main.transform.position);
         }
-    }
-
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-        coinVisual.position = Vector3.Lerp(
-        coinVisual.transform.position,
-        new Vector3(initialPosition.x, initialPosition.y + liftAmount, initialPosition.z),
-        liftSpeed * Time.deltaTime);
-
-        hoveringCoin = true;
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        coinVisual.position = Vector3.Lerp(coinVisual.position, initialPosition, dropSpeed * Time.deltaTime);
-
-        hoveringCoin = false;
     }
 }
