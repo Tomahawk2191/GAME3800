@@ -1,28 +1,40 @@
+using System.Security.Cryptography;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class CropBehavior : MonoBehaviour
 {
     public AudioClip pickupSFX;
     public int score;
-    public GameObject fullCrop;
+    public float lifespan;
 
     [HideInInspector]
     public static int totalScore = 0;
 
-    private void OnCollisionEnter(Collision collision)
+    private void Start()
     {
-        if(collision.gameObject.CompareTag("Player"))
-        {
-            totalScore += score;
-            Destroy(fullCrop);
-        }
+        Invoke("Despawn", lifespan);
     }
 
-    private void OnDestroy()
+    private void OnTriggerEnter(Collider other)
     {
-        if(pickupSFX)
+        if(other.gameObject.CompareTag("Player"))
+        {
+            PickUp();
+        }
+    }
+    private void PickUp()
+    {
+        totalScore += score;
+        if (pickupSFX)
         {
             AudioSource.PlayClipAtPoint(pickupSFX, Camera.main.transform.position);
         }
+        Destroy(gameObject);
+    }
+
+    private void Despawn()
+    {
+        Destroy(gameObject);
     }
 }
