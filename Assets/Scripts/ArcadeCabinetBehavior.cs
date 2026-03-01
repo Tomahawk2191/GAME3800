@@ -57,7 +57,7 @@ public class ArcadeCabinetBehavior : MonoBehaviour
 
     private void CheckPlayer()
     {
-        if(player.Raycast(playerDetection, out RaycastHit hitInfo, maxDistance) && Mouse.current.leftButton.wasPressedThisFrame) 
+        if(coinInserted == false && player.Raycast(playerDetection, out RaycastHit hitInfo, maxDistance) && Mouse.current.leftButton.wasPressedThisFrame) 
         {
             coinInserted = true;
             AudioSource.PlayClipAtPoint(insertSFX, Camera.main.transform.position);
