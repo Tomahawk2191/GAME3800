@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c250a58a54726d14683339c0bc975a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CropBehavior
-  pickupSFX: {fileID: 0}
+  pickupSFX: {fileID: 8300000, guid: e34680da39767924eb1bef9926cf0974, type: 3}
   score: 200
   lifespan: 3
 --- !u!1001 &7807879697407349471

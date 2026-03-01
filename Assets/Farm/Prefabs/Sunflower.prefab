@@ -9,6 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2706417675515149804}
+  - component: {fileID: 8445244057091432552}
+  - component: {fileID: 514454552262666142}
+  - component: {fileID: 7218566474799566827}
   m_Layer: 0
   m_Name: Sunflower
   m_TagString: Untagged
@@ -32,6 +35,71 @@ Transform:
   - {fileID: 1434234198707787633}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &8445244057091432552
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8734449236458783331}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 6.4847717
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.7423859, z: 0}
+--- !u!54 &514454552262666142
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8734449236458783331}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &7218566474799566827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8734449236458783331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c250a58a54726d14683339c0bc975a72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CropBehavior
+  pickupSFX: {fileID: 8300000, guid: e34680da39767924eb1bef9926cf0974, type: 3}
+  score: 100
+  lifespan: 5
 --- !u!1001 &1472066964557705370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -87,89 +155,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d91ca8c3165b4b4baf8fc6f75b04278, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 3434366890768252276}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d91ca8c3165b4b4baf8fc6f75b04278, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2470548227281043672}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d91ca8c3165b4b4baf8fc6f75b04278, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4193049062830022053}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d91ca8c3165b4b4baf8fc6f75b04278, type: 3}
 --- !u!4 &1434234198707787633 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6d91ca8c3165b4b4baf8fc6f75b04278, type: 3}
   m_PrefabInstance: {fileID: 1472066964557705370}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1778003533908512203 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6d91ca8c3165b4b4baf8fc6f75b04278, type: 3}
-  m_PrefabInstance: {fileID: 1472066964557705370}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &3434366890768252276
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778003533908512203}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 6.4847717
-  m_Direction: 1
-  m_Center: {x: 0, y: 2.7423859, z: 0}
---- !u!54 &2470548227281043672
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778003533908512203}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &4193049062830022053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778003533908512203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c250a58a54726d14683339c0bc975a72, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CropBehavior
-  pickupSFX: {fileID: 0}
-  score: 100
-  lifespan: 5
