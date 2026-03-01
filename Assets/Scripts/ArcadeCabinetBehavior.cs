@@ -51,7 +51,11 @@ public class ArcadeCabinetBehavior : MonoBehaviour
         if (!screenTransitioned && CoinBehavior.hasCoin)
         {
             arcadeCabinetScreen.texture = nextScreen;
-            AudioSource.PlayClipAtPoint(bootUpSFX, Camera.main.transform.position);
+
+            if(bootUpSFX)
+            {
+                AudioSource.PlayClipAtPoint(bootUpSFX, Camera.main.transform.position);
+            }
         }
     }
 
@@ -60,7 +64,12 @@ public class ArcadeCabinetBehavior : MonoBehaviour
         if(coinInserted == false && player.Raycast(playerDetection, out RaycastHit hitInfo, maxDistance) && Mouse.current.leftButton.wasPressedThisFrame) 
         {
             coinInserted = true;
-            AudioSource.PlayClipAtPoint(insertSFX, Camera.main.transform.position);
+
+            if(insertSFX)
+            {
+                AudioSource.PlayClipAtPoint(insertSFX, Camera.main.transform.position);
+            }
+
             Invoke(nameof(TransitionScene), insertSFX.length);
         }
     }
