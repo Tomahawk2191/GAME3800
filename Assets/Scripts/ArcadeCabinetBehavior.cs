@@ -14,6 +14,9 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     public Texture2D initialScreen;
     public Texture2D nextScreen;
 
+    public AudioClip bootUpSFX;
+    public AudioClip insertSFX;
+
     private bool screenTransitioned;
     private Ray playerDetection;
     private bool coinInserted = false;
@@ -23,7 +26,7 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     {
         playerDetection = new Ray(transform.position, transform.forward);
         ResetScreen();
-        BeginAsyncLoad();
+        StartCoroutine(BeginAsyncLoad());
     }
 
     // Update is called once per frame
@@ -48,6 +51,7 @@ public class ArcadeCabinetBehavior : MonoBehaviour
         if (!screenTransitioned && CoinBehavior.hasCoin)
         {
             arcadeCabinetScreen.texture = nextScreen;
+            AudioSource.PlayClipAtPoint(bootUpSFX, Camera.main.transform.position);
         }
     }
 
@@ -55,9 +59,9 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     {
         if(player.Raycast(playerDetection, out RaycastHit hitInfo, maxDistance) && Mouse.current.leftButton.wasPressedThisFrame) 
         {
-            Debug.Log("Raycast has hit");
             coinInserted = true;
-            SceneManager.LoadScene(nextScene);
+            AudioSource.PlayClipAtPoint(insertSFX, Camera.main.transform.position);
+            Invoke(nameof(TransitionScene), insertSFX.length);
         }
     }
 
@@ -73,6 +77,10 @@ public class ArcadeCabinetBehavior : MonoBehaviour
         }
 
         operation.allowSceneActivation = true;
-        Debug.Log("Scene gets loaded here");
+    }
+
+    private void TransitionScene()
+    {
+        SceneManager.LoadScene(nextScene);
     }
 }
