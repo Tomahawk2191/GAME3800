@@ -7153,6 +7153,7 @@ MonoBehaviour:
   cinemachineVirtualCamera: {fileID: 1770054327}
   leftPillarBox: {fileID: 1393063123}
   rightPillarBox: {fileID: 58722560}
+  pillarBoxSpeed: 200
   sceneTransitionTime: 2
 --- !u!1001 &1144899874
 PrefabInstance:
