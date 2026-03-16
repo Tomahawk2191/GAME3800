@@ -20,14 +20,6 @@ public class CoinBehavior : MonoBehaviour
         initialPosition = coinVisual.position;
     }
 
-    private void OnDestroy()
-    {
-        if(pickupSFX)
-        {
-            AudioSource.PlayClipAtPoint(pickupSFX, Camera.main.transform.position);
-        }
-    }
-
     public void Raise()
     {
         coinVisual.position = Vector3.Lerp(
@@ -45,6 +37,10 @@ public class CoinBehavior : MonoBehaviour
     public void Collect()
     {
         hasCoin = true;
+        if (pickupSFX)
+        {
+            AudioSource.PlayClipAtPoint(pickupSFX, Camera.main.transform.position);
+        }
         Destroy(gameObject);
         Destroy(coinVisual.gameObject);
     }

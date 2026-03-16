@@ -26,8 +26,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 1.81, y: 1.81, z: 1.81}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7961791915094427024}
   - {fileID: 1326294303112933173}
@@ -99,11 +99,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4866fd80b2f6884fb5c86d3c62da648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinBehavior
-  pickupSFX: {fileID: 0}
+  pickupSFX: {fileID: 8300000, guid: 0f165fa5beeba9342bb022955c493fda, type: 3}
   coinVisual: {fileID: 1326294303112933173}
-  liftAmount: 0
-  liftSpeed: 0
-  dropSpeed: 0
+  liftAmount: 0.2
+  liftSpeed: 10
+  dropSpeed: 5
 --- !u!1 &8534047751524522236
 GameObject:
   m_ObjectHideFlags: 0
@@ -3242,7 +3242,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 2556
+  m_VersionIndex: 2562
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
