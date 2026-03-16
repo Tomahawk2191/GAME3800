@@ -18,7 +18,9 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     public AudioClip insertSFX;
 
     public GameObject cinemachineVirtualCamera;
-    public float targetWidth = 0.75f;
+    public RectTransform leftPillarBox;
+    public RectTransform rightPillarBox;
+    public float pillarBoxSpeed = 20f;
     public float sceneTransitionTime = 2f;
 
     private bool screenTransitioned;
@@ -102,19 +104,16 @@ public class ArcadeCabinetBehavior : MonoBehaviour
 
     IEnumerator PillarBox()
     {
-        _camera = Camera.main.GetComponent<Camera>();
-        Rect rect = _camera.rect;
-        while (rect.width != targetWidth)
+        if(leftPillarBox && rightPillarBox)
         {
-            rect.width -= Time.deltaTime;
-            if(rect.width < targetWidth)
+            while (leftPillarBox.anchoredPosition.x < 0)
             {
-                rect.width = targetWidth;
+                Debug.Log(leftPillarBox.anchoredPosition);
+                float targetX = leftPillarBox.anchoredPosition.x + Time.deltaTime * pillarBoxSpeed;
+                leftPillarBox.anchoredPosition = new Vector2(targetX, 0);
+                rightPillarBox.anchoredPosition = new Vector2(-1f * targetX, 0);
+                yield return new WaitForSecondsRealtime(Time.deltaTime);
             }
-
-            rect.x = (1f - rect.width) / 2f;
-            _camera.rect = rect;
-            yield return new WaitForSecondsRealtime(Time.deltaTime);  
         }
         new WaitForSecondsRealtime(sceneTransitionTime);
         LoadNextScene();
