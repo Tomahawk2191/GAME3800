@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1545622441}
     m_Modifications:
+    - target: {fileID: 895057390420591182, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2926021153334400302, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -138,6 +142,10 @@ PrefabInstance:
     - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_Name
       value: DoorV1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_LocalScale.x
@@ -195,6 +203,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8321235024012218410, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -228,7 +240,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &42397913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -434,12 +446,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_05 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -621,12 +641,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 361f95ea108047b49985fe6c291b0a72, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 361f95ea108047b49985fe6c291b0a72, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 361f95ea108047b49985fe6c291b0a72, type: 3}
       propertyPath: m_Name
       value: Prop_ToyTrain_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 361f95ea108047b49985fe6c291b0a72, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -646,6 +674,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2087375447}
     m_Modifications:
+    - target: {fileID: 895057390420591182, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2926021153334400302, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -657,6 +689,10 @@ PrefabInstance:
     - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_Name
       value: DoorV1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_LocalScale.x
@@ -713,6 +749,10 @@ PrefabInstance:
     - target: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321235024012218410, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -789,12 +829,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_04 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -973,7 +1021,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &189056237
 Transform:
@@ -1066,12 +1114,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_05 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1210,12 +1266,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
       propertyPath: m_Name
       value: Prop_Ball_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1375,12 +1439,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1464,6 +1536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_KidsChair
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56bb75072a0700a4284e584b5d715656, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1506,6 +1582,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1314535051}
     m_Modifications:
+    - target: {fileID: 895057390420591182, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2926021153334400302, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1517,6 +1597,10 @@ PrefabInstance:
     - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_Name
       value: DoorV1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_LocalScale.x
@@ -1573,6 +1657,10 @@ PrefabInstance:
     - target: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321235024012218410, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1649,12 +1737,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f29c2874b147c443aed8e3cce50c597, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f29c2874b147c443aed8e3cce50c597, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 1f29c2874b147c443aed8e3cce50c597, type: 3}
       propertyPath: m_Name
       value: Prop_ToiletPaper (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1f29c2874b147c443aed8e3cce50c597, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1806,6 +1902,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1545622441}
     m_Modifications:
+    - target: {fileID: 895057390420591182, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2926021153334400302, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1817,6 +1917,10 @@ PrefabInstance:
     - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_Name
       value: DoorV1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_LocalScale.x
@@ -1874,6 +1978,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8321235024012218410, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1898,7 +2006,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &419657484
 Transform:
@@ -1969,12 +2077,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 55f3cfd6bcb604f4bbbc8f9817c5586d, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 55f3cfd6bcb604f4bbbc8f9817c5586d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 55f3cfd6bcb604f4bbbc8f9817c5586d, type: 3}
       propertyPath: m_Name
       value: Prop_Ball_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 55f3cfd6bcb604f4bbbc8f9817c5586d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2051,12 +2167,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_02 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2220,7 +2344,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2277,6 +2401,10 @@ PrefabInstance:
     - target: {fileID: 2546731052081623885, guid: 7a16812978f9fcd4db24b86344794233, type: 3}
       propertyPath: m_Name
       value: Balloon_Dog (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546731052081623885, guid: 7a16812978f9fcd4db24b86344794233, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4422066143494012269, guid: 7a16812978f9fcd4db24b86344794233, type: 3}
       propertyPath: m_LocalScale.x
@@ -2366,7 +2494,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &478939846
 Transform:
@@ -2415,7 +2543,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2477,6 +2605,10 @@ PrefabInstance:
     - target: {fileID: 2995065682995574137, guid: 9888dbc528c640247905f0f85d91d5e4, type: 3}
       propertyPath: m_Name
       value: Balloon_P
+      objectReference: {fileID: 0}
+    - target: {fileID: 2995065682995574137, guid: 9888dbc528c640247905f0f85d91d5e4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5198081481005071031, guid: 9888dbc528c640247905f0f85d91d5e4, type: 3}
       propertyPath: m_LocalScale.x
@@ -2625,12 +2757,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
       propertyPath: m_Name
       value: Prop_Ball_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2659,7 +2799,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &545512235
 Transform:
@@ -2708,7 +2848,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2819,12 +2959,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d3e5a39f11457234faab5b83562a4466, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d3e5a39f11457234faab5b83562a4466, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: d3e5a39f11457234faab5b83562a4466, type: 3}
       propertyPath: m_Name
       value: Prop_Shelve_10
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3e5a39f11457234faab5b83562a4466, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2901,12 +3049,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2931,6 +3087,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 946994078}
     m_Modifications:
+    - target: {fileID: 4237594367039848091, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4565055295185667954, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -2987,9 +3147,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8235954516412928918, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_Name
       value: Balloon_Flower_B_stem (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3066,12 +3234,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3155,6 +3331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_WaterDispenser
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c40505202890c8949b3d5bf429f67d49, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3233,12 +3413,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_02 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3428,7 +3616,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3603,7 +3791,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &630496058
 Transform:
@@ -3652,7 +3840,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3715,7 +3903,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &632188092
 Transform:
@@ -3764,7 +3952,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3875,12 +4063,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 168b086f9702fb54192684e9c9c2891f, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 168b086f9702fb54192684e9c9c2891f, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 168b086f9702fb54192684e9c9c2891f, type: 3}
       propertyPath: m_Name
       value: Prop_ToyTrain_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 168b086f9702fb54192684e9c9c2891f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3957,12 +4153,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: bc022541648eb504383beb60a0d00c39, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: bc022541648eb504383beb60a0d00c39, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: bc022541648eb504383beb60a0d00c39, type: 3}
       propertyPath: m_Name
       value: Prop_ToyCar_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bc022541648eb504383beb60a0d00c39, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3985,6 +4189,14 @@ PrefabInstance:
     - target: {fileID: 190472, guid: d36ce85b8944d15459422e452cdca919, type: 3}
       propertyPath: m_Name
       value: Toilet (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 190472, guid: d36ce85b8944d15459422e452cdca919, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 193452, guid: d36ce85b8944d15459422e452cdca919, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433798, guid: d36ce85b8944d15459422e452cdca919, type: 3}
       propertyPath: m_LocalScale.x
@@ -4133,12 +4345,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 3be4acc796b90db428e6bd8a39ac0adc, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3be4acc796b90db428e6bd8a39ac0adc, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 3be4acc796b90db428e6bd8a39ac0adc, type: 3}
       propertyPath: m_Name
       value: Prop_Ball_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3be4acc796b90db428e6bd8a39ac0adc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4199,12 +4419,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: m_Name
       value: Prop_Homeplant_08 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4355,12 +4583,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4421,12 +4657,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
       propertyPath: m_Name
       value: Prop_Ball_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4717,6 +4961,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 946994078}
     m_Modifications:
+    - target: {fileID: 4237594367039848091, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4565055295185667954, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -4773,9 +5021,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8235954516412928918, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_Name
       value: Balloon_Flower_B_stem
+      objectReference: {fileID: 0}
+    - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4795,9 +5051,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1545622441}
     m_Modifications:
+    - target: {fileID: 160026, guid: 08c49dfdb71ae5446b71f603df49bb2e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 181758, guid: 08c49dfdb71ae5446b71f603df49bb2e, type: 3}
       propertyPath: m_Name
       value: Sink
+      objectReference: {fileID: 0}
+    - target: {fileID: 181758, guid: 08c49dfdb71ae5446b71f603df49bb2e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 423860, guid: 08c49dfdb71ae5446b71f603df49bb2e, type: 3}
       propertyPath: m_LocalScale.x
@@ -4934,12 +5198,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5019,6 +5291,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon_Poodle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7422427747456162492, guid: b66ab8021191bf2439feb632098e4107, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5043,7 +5319,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &760199679
 Transform:
@@ -5080,7 +5356,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &760423793
 Transform:
@@ -5168,12 +5444,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5434,12 +5718,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_02 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5459,6 +5751,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 946994078}
     m_Modifications:
+    - target: {fileID: 4237594367039848091, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4565055295185667954, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -5515,9 +5811,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8235954516412928918, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_Name
       value: Balloon_Flower_B_stem (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5615,6 +5919,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon_Flower_A
       objectReference: {fileID: 0}
+    - target: {fileID: 1995515885797176704, guid: 7828c539a70b7e84e9427e5d9dbf81b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6579145301084693921, guid: 7828c539a70b7e84e9427e5d9dbf81b3, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -5670,6 +5978,10 @@ PrefabInstance:
     - target: {fileID: 6579145301084693921, guid: 7828c539a70b7e84e9427e5d9dbf81b3, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8898420246527240929, guid: 7828c539a70b7e84e9427e5d9dbf81b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5752,6 +6064,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56bb75072a0700a4284e584b5d715656, type: 3}
       propertyPath: m_Name
       value: Prop_KidsChair (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56bb75072a0700a4284e584b5d715656, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5902,7 +6218,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -6016,6 +6332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon_S
       objectReference: {fileID: 0}
+    - target: {fileID: 7638380318456203603, guid: 3d66accb996f46e419dacdf6efcfc43a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6093,6 +6413,10 @@ PrefabInstance:
     - target: {fileID: 6445488842396174430, guid: ce093c8b026fd934894566b024171fbb, type: 3}
       propertyPath: m_Name
       value: Balloon_I
+      objectReference: {fileID: 0}
+    - target: {fileID: 6445488842396174430, guid: ce093c8b026fd934894566b024171fbb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6246,6 +6570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon_Z
       objectReference: {fileID: 0}
+    - target: {fileID: 5712462844025827003, guid: cf252596ab4204149ad1e7c3895594c9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6321,12 +6649,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1f29c2874b147c443aed8e3cce50c597, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1f29c2874b147c443aed8e3cce50c597, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 1f29c2874b147c443aed8e3cce50c597, type: 3}
       propertyPath: m_Name
       value: Prop_ToiletPaper
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1f29c2874b147c443aed8e3cce50c597, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6387,12 +6723,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6418,7 +6762,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &946994078
 Transform:
@@ -6530,12 +6874,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: m_Name
       value: Prop_Homeplant_08 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6612,12 +6964,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 2e1f54caadc7b494190fb01aae32142c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2e1f54caadc7b494190fb01aae32142c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 2e1f54caadc7b494190fb01aae32142c, type: 3}
       propertyPath: m_Name
       value: Prop_ToyTrain_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e1f54caadc7b494190fb01aae32142c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6715,7 +7075,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &1062304704
 RectTransform:
@@ -6836,12 +7196,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6918,12 +7286,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7000,12 +7376,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 16c76521ec913dc47a58b5999edc42a6, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 16c76521ec913dc47a58b5999edc42a6, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 16c76521ec913dc47a58b5999edc42a6, type: 3}
       propertyPath: m_Name
       value: Prop_TrashCan_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 16c76521ec913dc47a58b5999edc42a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7081,9 +7465,109 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8513424388201257645, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -7428368982842107029, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -6067185528594298527, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -5926380724829940322, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -5266785677919700964, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -4830548618574930462, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4044671773113788389, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3901992563441801604, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3838735271085949761, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2793727289926329592, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -2005254371454720145, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1058976313529914444, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -264430861247414160, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 692447249871354435, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
       propertyPath: m_Name
       value: Happy Farmer
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1715282808159706237, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2586607309129781981, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2866621852552652557, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3932287124643443059, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810330673336176450, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6486861754132561057, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7484468418975526891, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7503526307140469533, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9022215874312191456, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9160325014271739373, guid: ef262e46b826e354294ab9b8159b299c, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7204,12 +7688,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: m_Name
       value: Prop_Homeplant_08 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7229,6 +7721,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 946994078}
     m_Modifications:
+    - target: {fileID: 4237594367039848091, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4565055295185667954, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -7285,9 +7781,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8235954516412928918, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_Name
       value: Balloon_Flower_B_stem (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7364,12 +7868,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_05 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7547,7 +8059,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1205238268
 Transform:
@@ -7577,6 +8089,10 @@ PrefabInstance:
     - target: {fileID: 2546731052081623885, guid: 7a16812978f9fcd4db24b86344794233, type: 3}
       propertyPath: m_Name
       value: Balloon_Dog (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546731052081623885, guid: 7a16812978f9fcd4db24b86344794233, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4422066143494012269, guid: 7a16812978f9fcd4db24b86344794233, type: 3}
       propertyPath: m_LocalScale.x
@@ -7693,12 +8209,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
       propertyPath: m_Name
       value: Prop_Ball_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7782,6 +8306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Prop_KidsClock
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2c3c5b15696b1934f8713060fb974029, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7863,6 +8391,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 56bb75072a0700a4284e584b5d715656, type: 3}
       propertyPath: m_Name
       value: Prop_KidsChair (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 56bb75072a0700a4284e584b5d715656, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7963,12 +8495,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7988,6 +8528,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 946994078}
     m_Modifications:
+    - target: {fileID: 4237594367039848091, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4565055295185667954, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -8044,9 +8588,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8235954516412928918, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_Name
       value: Balloon_Flower_B_stem (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8107,12 +8659,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: m_Name
       value: Prop_Homeplant_08 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8190,7 +8750,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8285,12 +8845,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8316,7 +8884,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1285313738
 Transform:
@@ -8392,12 +8960,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 25c4bf8c0db29bd4494044b01a44499e, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 25c4bf8c0db29bd4494044b01a44499e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 25c4bf8c0db29bd4494044b01a44499e, type: 3}
       propertyPath: m_Name
       value: Prop_Ball_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 25c4bf8c0db29bd4494044b01a44499e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8553,7 +9129,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8613,7 +9189,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1314535051
 Transform:
@@ -8714,12 +9290,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8871,7 +9455,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8928,6 +9512,10 @@ PrefabInstance:
     - target: {fileID: 3596620445429568626, guid: 280c770b0e3a6e54b805ffcd5f450eda, type: 3}
       propertyPath: m_Name
       value: Balloon_R
+      objectReference: {fileID: 0}
+    - target: {fileID: 3596620445429568626, guid: 280c770b0e3a6e54b805ffcd5f450eda, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6922107333316779622, guid: 280c770b0e3a6e54b805ffcd5f450eda, type: 3}
       propertyPath: m_LocalScale.x
@@ -9006,6 +9594,10 @@ PrefabInstance:
     - target: {fileID: 425668827929216755, guid: 3c24e108ce65b1c469207521be9e3faa, type: 3}
       propertyPath: m_Name
       value: Balloon_E
+      objectReference: {fileID: 0}
+    - target: {fileID: 425668827929216755, guid: 3c24e108ce65b1c469207521be9e3faa, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8802214110598108176, guid: 3c24e108ce65b1c469207521be9e3faa, type: 3}
       propertyPath: m_LocalScale.x
@@ -9139,7 +9731,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9234,12 +9826,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: m_Name
       value: Prop_Homeplant_08 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9265,7 +9865,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1385532812
 Transform:
@@ -9507,12 +10107,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_03 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9663,12 +10271,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_02 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9745,12 +10361,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9828,7 +10452,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9960,6 +10584,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1314535051}
     m_Modifications:
+    - target: {fileID: 895057390420591182, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2926021153334400302, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -9971,6 +10599,10 @@ PrefabInstance:
     - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_Name
       value: DoorV1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_LocalScale.x
@@ -10027,6 +10659,10 @@ PrefabInstance:
     - target: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8321235024012218410, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10126,7 +10762,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1545622441
 Transform:
@@ -10160,21 +10796,93 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1648786693}
     m_Modifications:
+    - target: {fileID: 457901209489228687, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 473833242547845039, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1021303499208618386, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1047592375138166991, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1906868364265333244, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030198674027739843, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2692169187399703847, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2978623535948722916, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980589079707399461, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3037642025080737102, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3357120245226013698, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
       propertyPath: m_Name
       value: brokenmachine
       objectReference: {fileID: 0}
-    - target: {fileID: 7181080067284282935, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 100
+    - target: {fileID: 3357120245226013698, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
-    - target: {fileID: 7181080067284282935, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 100
+    - target: {fileID: 3391606825945829788, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 7181080067284282935, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 100
+    - target: {fileID: 3410395941972272990, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3449910169091916624, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3511809050327035601, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4145728353916507973, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4511388003870079896, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5955121479008521626, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6207507452356280626, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6600919560955459494, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6684512543992622447, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7181080067284282935, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10216,8 +10924,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7181080067284282935, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
-      propertyPath: m_ConstrainProportionsScale
+    - target: {fileID: 8273441217254543160, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8599002113817295557, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8692863568328193785, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8968792265217136659, guid: 92b9214896ee0194c93aa6557561b995, type: 3}
+      propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -10246,7 +10966,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1563266428
 Transform:
@@ -10274,7 +10994,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10502,12 +11222,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_02 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10584,12 +11312,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10650,12 +11386,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
       propertyPath: m_Name
       value: Prop_Homeplant_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d02248317d144674591462a2049ec09a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11307,7 +12051,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1676556153
 Transform:
@@ -11394,12 +12138,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_03 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11428,7 +12180,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1702949665
 Transform:
@@ -11477,7 +12229,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11588,12 +12340,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_02 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11776,12 +12536,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11807,7 +12575,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1747009327
 Transform:
@@ -11842,7 +12610,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 0
 --- !u!4 &1770054328
 Transform:
@@ -11916,7 +12684,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1780004426
 Transform:
@@ -11953,7 +12721,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!224 &1780694009
 RectTransform:
@@ -12087,12 +12855,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b6ceb60856b983c4eb32edbb42a49f36, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12153,12 +12929,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 3be4acc796b90db428e6bd8a39ac0adc, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 3be4acc796b90db428e6bd8a39ac0adc, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 3be4acc796b90db428e6bd8a39ac0adc, type: 3}
       propertyPath: m_Name
       value: Prop_Ball_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3be4acc796b90db428e6bd8a39ac0adc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12235,12 +13019,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1c8ce70bd3d0614449bda9feb2619eef, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1c8ce70bd3d0614449bda9feb2619eef, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 1c8ce70bd3d0614449bda9feb2619eef, type: 3}
       propertyPath: m_Name
       value: Prop_ToyTrain_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c8ce70bd3d0614449bda9feb2619eef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12266,7 +13058,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1815530062
 Transform:
@@ -12354,6 +13146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon_Poodle
       objectReference: {fileID: 0}
+    - target: {fileID: 7422427747456162492, guid: b66ab8021191bf2439feb632098e4107, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12429,12 +13225,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e8a634e3add66fa4299d4ff6504347f9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12511,12 +13315,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12577,12 +13389,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
       propertyPath: m_Name
       value: Prop_Ball_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 22e13c71fd94a6b4d9af4cbfd60c09ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12611,7 +13431,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1875122789
 Transform:
@@ -12660,7 +13480,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12714,6 +13534,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2087375447}
     m_Modifications:
+    - target: {fileID: 895057390420591182, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2926021153334400302, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -12725,6 +13549,10 @@ PrefabInstance:
     - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_Name
       value: DoorV1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424270456704572960, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6424270456704860672, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
       propertyPath: m_LocalScale.x
@@ -12782,6 +13610,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8321235024012218410, guid: 214b673e61a328f4b97a4c1f1bba63d3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12809,7 +13641,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1905992017
 Transform:
@@ -12858,7 +13690,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12972,6 +13804,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Balloon_Poodle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7422427747456162492, guid: b66ab8021191bf2439feb632098e4107, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12993,6 +13829,10 @@ PrefabInstance:
     - target: {fileID: 2546731052081623885, guid: 7a16812978f9fcd4db24b86344794233, type: 3}
       propertyPath: m_Name
       value: Balloon_Dog
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546731052081623885, guid: 7a16812978f9fcd4db24b86344794233, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4422066143494012269, guid: 7a16812978f9fcd4db24b86344794233, type: 3}
       propertyPath: m_LocalScale.x
@@ -13074,7 +13914,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1975776779
 Transform:
@@ -13170,7 +14010,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
+  m_StaticShadowCaster: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -13429,12 +14269,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_03 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: edd060855f78c88429fb297ceb20d258, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13511,12 +14359,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_02 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13593,12 +14449,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: fd95feaef36e4cd419b430c67a6f88bd, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fd95feaef36e4cd419b430c67a6f88bd, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: fd95feaef36e4cd419b430c67a6f88bd, type: 3}
       propertyPath: m_Name
       value: Prop_Shelve_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fd95feaef36e4cd419b430c67a6f88bd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13675,12 +14539,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_02 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13703,6 +14575,14 @@ PrefabInstance:
     - target: {fileID: 190472, guid: d36ce85b8944d15459422e452cdca919, type: 3}
       propertyPath: m_Name
       value: Toilet
+      objectReference: {fileID: 0}
+    - target: {fileID: 190472, guid: d36ce85b8944d15459422e452cdca919, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 193452, guid: d36ce85b8944d15459422e452cdca919, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 433798, guid: d36ce85b8944d15459422e452cdca919, type: 3}
       propertyPath: m_LocalScale.x
@@ -13894,7 +14774,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2087375447
 Transform:
@@ -13927,6 +14807,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 946994078}
     m_Modifications:
+    - target: {fileID: 4237594367039848091, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4565055295185667954, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_LocalScale.x
       value: 3
@@ -13983,9 +14867,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8235954516412928918, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
       propertyPath: m_Name
       value: Balloon_Flower_B_stem (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8685420656957083295, guid: 7a511a7141629af4397b80ea455b96c5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14062,12 +14954,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 178dc4f68d4f9a1458f4530db3382d7a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 178dc4f68d4f9a1458f4530db3382d7a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 178dc4f68d4f9a1458f4530db3382d7a, type: 3}
       propertyPath: m_Name
       value: Prop_ToyTrain_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 178dc4f68d4f9a1458f4530db3382d7a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14144,12 +15044,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_04 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5b2ec9ccce360334aafcfa3ff103e7d9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14231,12 +15139,20 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
       propertyPath: m_Name
       value: Prop_TeddyBear_02 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6dab09ffac7d334794438ebee8b7806, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14297,12 +15213,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
+      propertyPath: m_StaticShadowCaster
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 0efcc3d99bea043059f175d36f8bd781, type: 2}
     - target: {fileID: 919132149155446097, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
       propertyPath: m_Name
       value: Prop_Ball_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7af44053535ae604d94e6bf46b30608a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -14385,6 +15309,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 650f7c29f46456145b1068ea07ec06b3, type: 3}
       propertyPath: m_Name
       value: Prop_WaterGallon
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 650f7c29f46456145b1068ea07ec06b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
