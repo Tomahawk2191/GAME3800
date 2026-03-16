@@ -17,9 +17,13 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     public AudioClip bootUpSFX;
     public AudioClip insertSFX;
 
+    public GameObject cinemachineVirtualCamera;
+    public float targetWidth = 0.75f;
+
     private bool screenTransitioned;
     private Ray playerDetection;
     private bool coinInserted = false;
+    private Camera _camera;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -55,6 +59,7 @@ public class ArcadeCabinetBehavior : MonoBehaviour
             if(bootUpSFX)
             {
                 AudioSource.PlayClipAtPoint(bootUpSFX, Camera.main.transform.position);
+                bootUpSFX = null;
             }
         }
     }
@@ -89,6 +94,32 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     }
 
     private void TransitionScene()
+    {
+        cinemachineVirtualCamera.SetActive(true);
+        StartCoroutine(nameof(PillarBox));
+    }
+
+    IEnumerator PillarBox()
+    {
+        _camera = Camera.main.GetComponent<Camera>();
+        Rect rect = _camera.rect;
+        while (rect.width != targetWidth)
+        {
+            rect.width -= Time.deltaTime;
+            if(rect.width < targetWidth)
+            {
+                rect.width = targetWidth;
+            }
+
+            rect.x = (1f - rect.width) / 2f;
+            _camera.rect = rect;
+            yield return new WaitForSecondsRealtime(Time.deltaTime);  
+        }
+        LoadNextScene();
+        yield break;
+    }
+
+    private void LoadNextScene()
     {
         SceneManager.LoadScene(nextScene);
     }
