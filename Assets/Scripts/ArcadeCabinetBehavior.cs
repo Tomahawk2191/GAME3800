@@ -19,6 +19,7 @@ public class ArcadeCabinetBehavior : MonoBehaviour
 
     public GameObject cinemachineVirtualCamera;
     public float targetWidth = 0.75f;
+    public float sceneTransitionTime = 2f;
 
     private bool screenTransitioned;
     private Ray playerDetection;
@@ -115,6 +116,7 @@ public class ArcadeCabinetBehavior : MonoBehaviour
             _camera.rect = rect;
             yield return new WaitForSecondsRealtime(Time.deltaTime);  
         }
+        new WaitForSecondsRealtime(sceneTransitionTime);
         LoadNextScene();
         yield break;
     }
