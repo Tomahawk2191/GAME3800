@@ -3830,6 +3830,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 611503217}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &620859950 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 811203708085764778, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+  m_PrefabInstance: {fileID: 1674059513}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &622445172
 GameObject:
   m_ObjectHideFlags: 0
@@ -12525,6 +12530,9 @@ PrefabInstance:
       insertIndex: 0
       addedObject: {fileID: 126752442}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 811203708085764778, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1674059516}
     - targetCorrespondingSourceObject: {fileID: 2013260281687004935, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 86922151}
@@ -12537,6 +12545,23 @@ CapsuleCollider:
   m_CorrespondingSourceObject: {fileID: 702077074596502826, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
   m_PrefabInstance: {fileID: 1674059513}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1674059516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620859950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d76c292374a094f9c6330ae76bf37b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ViewBobController
+  amplitude: 0.015
+  frequency: 10
+  playerCamera: {fileID: 126752442}
+  camHolder: {fileID: 2106580462}
+  MoveActionReference: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
 --- !u!1 &1676556152
 GameObject:
   m_ObjectHideFlags: 0
