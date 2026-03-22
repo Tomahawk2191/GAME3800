@@ -36,8 +36,6 @@ public class PlayerMovement : MonoBehaviour
             ref moveDampVelocity,
             MoveSmoothTime);
 
-        characterController.Move(currentMoveVelocity * Time.deltaTime);
-
         if(!characterController.isGrounded)
         {
             currentForceVelocity.y -= gravityStrength * Time.deltaTime; 
@@ -47,5 +45,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         characterController.Move(currentForceVelocity * Time.deltaTime);
+        characterController.Move(currentMoveVelocity * Time.deltaTime);
     }
 }
