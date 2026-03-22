@@ -34,7 +34,6 @@ public class ViewBobController : MonoBehaviour
 
     private void PlayMotion(Vector3 motion)
     {
-        Debug.Log("Bobbing: " + motion.magnitude);
         playerCamera.localPosition += motion;
     }
 
