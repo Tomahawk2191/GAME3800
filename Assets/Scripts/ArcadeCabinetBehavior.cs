@@ -40,7 +40,7 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     void Update()
     {
         UpdateScreen();
-
+        Debug.DrawRay(transform.position, transform.forward * maxDistance, Color.red);
         if(CoinBehavior.hasCoin)
         {
             CheckPlayer();
