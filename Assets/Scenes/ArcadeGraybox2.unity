@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: e61783c611edc400199439307168c2fd, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 9c1214c3282394dbf9b5c6f37c7901ba, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: e020a4a7061104291bbc5e011932af8e, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -5903,7 +5903,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
+  sharedProfile: {fileID: 11400000, guid: b849e43579f534d99a4d1bdbf8562c53, type: 2}
 --- !u!4 &832575519
 Transform:
   m_ObjectHideFlags: 0
@@ -7228,6 +7228,13 @@ MonoBehaviour:
   arcadeCabinetScreen: {fileID: 1062304705}
   initialScreen: {fileID: 2800000, guid: 2c9fd103f95f7994f909255cf2443694, type: 3}
   nextScreen: {fileID: 2800000, guid: 0cc2940deaf44bb44b1ebe7b48f79d15, type: 3}
+  bootUpSFX: {fileID: 0}
+  insertSFX: {fileID: 0}
+  cinemachineVirtualCamera: {fileID: 0}
+  leftPillarBox: {fileID: 0}
+  rightPillarBox: {fileID: 0}
+  pillarBoxSpeed: 20
+  sceneTransitionTime: 2
 --- !u!1 &1140466065
 GameObject:
   m_ObjectHideFlags: 0
