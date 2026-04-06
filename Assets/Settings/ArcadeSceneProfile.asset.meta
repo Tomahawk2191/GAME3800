@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 0752150b94c4f4a69868a6c6c923770f
+<<<<<<<< HEAD:Assets/ArcadeLightingSettings.lighting.meta
+guid: a42e5bb6ebac34df3a32430d6bbc075b
+========
+guid: b849e43579f534d99a4d1bdbf8562c53
+>>>>>>>> main:Assets/Settings/ArcadeSceneProfile.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0

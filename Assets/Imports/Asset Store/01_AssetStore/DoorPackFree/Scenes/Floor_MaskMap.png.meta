@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: 705d79d3dbe844f6693ba5db39a0630e
+<<<<<<<< HEAD:Assets/Imports/Asset Store/01_AssetStore/DoorPackFree/Scenes/Floor_MaskMap.png.meta
+guid: 3210787d195904043be2c2ce2d5ce2bc
+========
+guid: 42968ad7c3bc7cd46a8e2b1fabe50e2c
+>>>>>>>> main:Assets/Farm/Textures/baskettextutres/basket_woodfandb_Normal.1001.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -54,7 +58,11 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
+<<<<<<<< HEAD:Assets/Imports/Asset Store/01_AssetStore/DoorPackFree/Scenes/Floor_MaskMap.png.meta
   textureType: 0
+========
+  textureType: 1
+>>>>>>>> main:Assets/Farm/Textures/baskettextutres/basket_woodfandb_Normal.1001.png.meta
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,6 +80,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<<< HEAD:Assets/Imports/Asset Store/01_AssetStore/DoorPackFree/Scenes/Floor_MaskMap.png.meta
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -85,6 +94,8 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+========
+>>>>>>>> main:Assets/Farm/Textures/baskettextutres/basket_woodfandb_Normal.1001.png.meta
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -94,7 +105,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1

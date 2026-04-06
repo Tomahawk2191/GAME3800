@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: d7465a03e3006463b9d1fbe6baee81cc
+<<<<<<<< HEAD:Assets/Imports/Mountain Terrain rocks and tree/Materials/Trees/tree_01/bark_01_MaskMap.png.meta
+guid: 590878d55e0cd408aa167366281c46c7
+========
+guid: efc84ca040df0524bac869f8713074d5
+>>>>>>>> main:Assets/Farm/Textures/chairtextures/rockingchair_standardSurface1_Normal.1001.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -54,7 +58,11 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
+<<<<<<<< HEAD:Assets/Imports/Mountain Terrain rocks and tree/Materials/Trees/tree_01/bark_01_MaskMap.png.meta
   textureType: 0
+========
+  textureType: 1
+>>>>>>>> main:Assets/Farm/Textures/chairtextures/rockingchair_standardSurface1_Normal.1001.png.meta
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -72,6 +80,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<<< HEAD:Assets/Imports/Mountain Terrain rocks and tree/Materials/Trees/tree_01/bark_01_MaskMap.png.meta
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -85,6 +94,8 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+========
+>>>>>>>> main:Assets/Farm/Textures/chairtextures/rockingchair_standardSurface1_Normal.1001.png.meta
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -94,7 +105,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: WebGL
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1

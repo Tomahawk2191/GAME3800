@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ViewBobController : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class ViewBobController : MonoBehaviour
     [SerializeField]
     private Transform camHolder;
 
-    private float toggleSpeed = 3.0f;
+    public InputActionReference MoveActionReference;
+
+    private float toggleSpeed = 0.1f;
     private Vector3 startPos;
     private CharacterController characterController;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -36,7 +39,8 @@ public class ViewBobController : MonoBehaviour
 
     private void CheckMotion()
     {
-        float speed = new Vector3(characterController.velocity.x, 0, characterController.velocity.z).magnitude;
+        var moveAction = MoveActionReference.action.ReadValue<Vector2>();
+        float speed = moveAction.magnitude;
 
         if (speed < toggleSpeed || !characterController.isGrounded)
         {
