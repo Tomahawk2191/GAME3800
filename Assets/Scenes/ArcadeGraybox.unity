@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: b71543232772f4ba28d0de988e08252e, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: e61783c611edc400199439307168c2fd, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 812aace3be87e49a79c6c3a712dead23, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -481,6 +481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CoinScripted
       objectReference: {fileID: 0}
+    - target: {fileID: 4812238488846415844, guid: e4173245d1690794c8026f9ec032aa3b, type: 3}
+      propertyPath: liftAmount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5400737485824108411, guid: e4173245d1690794c8026f9ec032aa3b, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -529,6 +533,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7147430995138388221, guid: e4173245d1690794c8026f9ec032aa3b, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7147430995138388221, guid: e4173245d1690794c8026f9ec032aa3b, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 72db586fb073d7641bae7dfaa06befc1, type: 2}
     - target: {fileID: 8592701480100187383, guid: e4173245d1690794c8026f9ec032aa3b, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -838,13 +850,48 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 811203708085764778, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 100910190}
   m_SourcePrefab: {fileID: 100100000, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+--- !u!4 &100910186 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1680278360463530774, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+  m_PrefabInstance: {fileID: 100910185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &100910187 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7939480878785912268, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+  m_PrefabInstance: {fileID: 100910185}
+  m_PrefabAsset: {fileID: 0}
 --- !u!136 &100910188 stripped
 CapsuleCollider:
   m_CorrespondingSourceObject: {fileID: 702077074596502826, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
   m_PrefabInstance: {fileID: 100910185}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &100910189 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 811203708085764778, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+  m_PrefabInstance: {fileID: 100910185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &100910190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100910189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d76c292374a094f9c6330ae76bf37b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ViewBobController
+  amplitude: 0.015
+  frequency: 10
+  playerCamera: {fileID: 100910187}
+  camHolder: {fileID: 100910186}
+  MoveActionReference: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
 --- !u!1001 &103622366
 PrefabInstance:
   m_ObjectHideFlags: 0
