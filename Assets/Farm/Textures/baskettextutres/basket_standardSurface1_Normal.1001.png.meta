@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:Assets/Imports/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01/mountain_terrain_01_MaskMap.png.meta
-guid: 5eb1760d9032e4095b0978b6206f85b6
-========
-guid: 4552d0735bbc5db4f9059f4cfd123537
->>>>>>>> main:Assets/Farm/Textures/baskettextutres/basket_standardSurface1_Normal.1001.png.meta
+guid: 25362bc34044048fea9a5a38f7ce2aa6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -58,11 +54,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
-<<<<<<<< HEAD:Assets/Imports/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01/mountain_terrain_01_MaskMap.png.meta
-  textureType: 0
-========
   textureType: 1
->>>>>>>> main:Assets/Farm/Textures/baskettextutres/basket_standardSurface1_Normal.1001.png.meta
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -80,22 +72,6 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-<<<<<<<< HEAD:Assets/Imports/Mountain Terrain rocks and tree/Materials/Terrain/mountain_terrain_01/mountain_terrain_01_MaskMap.png.meta
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-========
->>>>>>>> main:Assets/Farm/Textures/baskettextutres/basket_standardSurface1_Normal.1001.png.meta
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0

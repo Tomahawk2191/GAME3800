@@ -11,7 +11,13 @@ public class ColliderRaycast : MonoBehaviour
 
     private void Start()
     {
-        coin = GameObject.FindFirstObjectByType<CoinBehavior>();
+        coin = FindFirstObjectByType<CoinBehavior>();
+
+        if (!colliderToHit)
+        {
+            Debug.LogWarning("No collider to hit set on " + gameObject.name + " - disabling");
+            gameObject.SetActive(false);
+        }
     }
 
     private void Update()
