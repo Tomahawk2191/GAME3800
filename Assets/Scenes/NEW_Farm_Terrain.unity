@@ -466,17 +466,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2013653371}
     m_Modifications:
+    - target: {fileID: 605256019712750455, guid: 4cc712e21f2be2947aab51b45537f1f7, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 41d7e4920c617df40aa83ca47b192da4, type: 2}
     - target: {fileID: 4805395623098292210, guid: 4cc712e21f2be2947aab51b45537f1f7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.890991
+      value: 29.867
       objectReference: {fileID: 0}
     - target: {fileID: 4805395623098292210, guid: 4cc712e21f2be2947aab51b45537f1f7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.6929932
+      value: -4.86
       objectReference: {fileID: 0}
     - target: {fileID: 4805395623098292210, guid: 4cc712e21f2be2947aab51b45537f1f7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.428009
+      value: 4.993
       objectReference: {fileID: 0}
     - target: {fileID: 4805395623098292210, guid: 4cc712e21f2be2947aab51b45537f1f7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -509,6 +513,18 @@ PrefabInstance:
     - target: {fileID: 7286819258304920641, guid: 4cc712e21f2be2947aab51b45537f1f7, type: 3}
       propertyPath: m_Name
       value: watercan
+      objectReference: {fileID: 0}
+    - target: {fileID: 9146564881869234638, guid: 4cc712e21f2be2947aab51b45537f1f7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0023103
+      objectReference: {fileID: 0}
+    - target: {fileID: 9146564881869234638, guid: 4cc712e21f2be2947aab51b45537f1f7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0023103
+      objectReference: {fileID: 0}
+    - target: {fileID: 9146564881869234638, guid: 4cc712e21f2be2947aab51b45537f1f7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0023103
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2318,12 +2334,24 @@ PrefabInstance:
       value: basket
       objectReference: {fileID: 0}
     - target: {fileID: 2072540191019053527, guid: 6d4fd44dd6a9cea42b9eb71afd428c8c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.0025406731
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072540191019053527, guid: 6d4fd44dd6a9cea42b9eb71afd428c8c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.0025406731
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072540191019053527, guid: 6d4fd44dd6a9cea42b9eb71afd428c8c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.0025406731
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072540191019053527, guid: 6d4fd44dd6a9cea42b9eb71afd428c8c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 23.821991
       objectReference: {fileID: 0}
     - target: {fileID: 2072540191019053527, guid: 6d4fd44dd6a9cea42b9eb71afd428c8c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.618988
+      value: -2.841
       objectReference: {fileID: 0}
     - target: {fileID: 2072540191019053527, guid: 6d4fd44dd6a9cea42b9eb71afd428c8c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2357,6 +2385,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4640896226470675127, guid: 6d4fd44dd6a9cea42b9eb71afd428c8c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6afb74c1fd8670a4cb80b57ca5057a51, type: 2}
+    - target: {fileID: 4640896226470675127, guid: 6d4fd44dd6a9cea42b9eb71afd428c8c, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 786ef47acb7a7da41bfabe947be3350b, type: 2}
+    - target: {fileID: 4640896226470675127, guid: 6d4fd44dd6a9cea42b9eb71afd428c8c, type: 3}
+      propertyPath: 'm_Materials.Array.data[2]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 43532789d765a8a4d9a879272bd7ead6, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
