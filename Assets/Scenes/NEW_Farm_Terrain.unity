@@ -831,11 +831,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1414,11 +1414,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1496,11 +1496,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2006,7 +2006,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 796215998}
   m_SourcePrefab: {fileID: 100100000, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
 --- !u!4 &737126189 stripped
 Transform:
@@ -3197,11 +3200,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3868,7 +3871,8 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3125547542924750963, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3888,11 +3892,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4286,11 +4290,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.009999999
+      value: 0.009999998
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5291,6 +5295,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 82a242b74539c25449ede55d03c02115, type: 3}
   m_PrefabInstance: {fileID: 2033259942}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2051224207 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
+  m_PrefabInstance: {fileID: 240870005}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2051224210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051224207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb866512daac60c4bba8ab9abfef60d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CropSpawner
+  crop: {fileID: 8734449236458783331, guid: b15d99514cca30049a9d4747cf16f57f, type: 3}
+  spawnVals:
+    frequency: 2
+    minXValue: 463
+    maxXValue: 470
+    minZValue: 469
+    maxZValue: 475
 --- !u!1001 &2060211322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5366,7 +5394,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2060211326}
   m_SourcePrefab: {fileID: 100100000, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
 --- !u!4 &2060211323 stripped
 Transform:
