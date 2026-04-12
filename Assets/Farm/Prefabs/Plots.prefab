@@ -69,19 +69,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -89,7 +89,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -140,7 +140,7 @@ MonoBehaviour:
   crop: {fileID: 8734449236458783331, guid: b15d99514cca30049a9d4747cf16f57f, type: 3}
   spawnVals:
     frequency: 2
-    minXValue: 463
+    minXValue: 464
     maxXValue: 470
     minZValue: 469
     maxZValue: 475
@@ -178,19 +178,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -198,7 +198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -219,8 +219,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7632064621410368449}
   m_SourcePrefab: {fileID: 100100000, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
+--- !u!1 &6150819450725071737 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
+  m_PrefabInstance: {fileID: 6457441008304703016}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7632064621410368449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6150819450725071737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb866512daac60c4bba8ab9abfef60d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CropSpawner
+  crop: {fileID: 8734449236458783331, guid: 629fdfd24c605e54ba051edd2c33a1af, type: 3}
+  spawnVals:
+    frequency: 5
+    minXValue: 483
+    maxXValue: 489
+    minZValue: 469
+    maxZValue: 475
 --- !u!4 &6780108899760972227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
@@ -260,19 +287,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -280,7 +307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -301,13 +328,40 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8738113994377632571}
   m_SourcePrefab: {fileID: 100100000, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
 --- !u!4 &7043707833040509076 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
   m_PrefabInstance: {fileID: 7370984704100106111}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7677395298254340654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
+  m_PrefabInstance: {fileID: 7370984704100106111}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8738113994377632571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7677395298254340654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb866512daac60c4bba8ab9abfef60d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CropSpawner
+  crop: {fileID: 8734449236458783331, guid: 629fdfd24c605e54ba051edd2c33a1af, type: 3}
+  spawnVals:
+    frequency: 5
+    minXValue: 464
+    maxXValue: 470
+    minZValue: 457
+    maxZValue: 463
 --- !u!1001 &7964508296289459634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -342,19 +396,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -362,7 +416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -383,8 +437,35 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3625741515457928837}
   m_SourcePrefab: {fileID: 100100000, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
+--- !u!1 &7081619906326765795 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
+  m_PrefabInstance: {fileID: 7964508296289459634}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3625741515457928837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7081619906326765795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb866512daac60c4bba8ab9abfef60d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CropSpawner
+  crop: {fileID: 8734449236458783331, guid: b15d99514cca30049a9d4747cf16f57f, type: 3}
+  spawnVals:
+    frequency: 2
+    minXValue: 483
+    maxXValue: 489
+    minZValue: 457
+    maxZValue: 463
 --- !u!4 &7569749861214550617 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
