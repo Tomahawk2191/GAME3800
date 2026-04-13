@@ -8,9 +8,13 @@ public class HappyFarmerLevelManager : MonoBehaviour
     public float displayTimer;
     public TMP_Text timerText;
     public TMP_Text gameOverText;
+    public TMP_Text scoreText;
     public float gameOverDuration;
     public SceneField nextScene;
     public float startingSkyValue = 115f;
+    
+    [SerializeField] private GameObject player;
+    [SerializeField] private AudioClip happyFarmerTheme;
 
     [HideInInspector]
     public static float timer;
@@ -32,6 +36,14 @@ public class HappyFarmerLevelManager : MonoBehaviour
             float skyBoxAlpha = RenderSettings.skybox.GetColor("_Tint").a;
             RenderSettings.skybox.SetColor("_Tint", new Color(startingSkyValue, startingSkyValue, startingSkyValue, skyBoxAlpha));
         }
+        
+        AudioSource playerAudio = player.GetComponent<AudioSource>();
+        playerAudio.clip = happyFarmerTheme;
+        playerAudio.loop = true;
+        playerAudio.Play();
+        
+        if (!player)
+            player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
@@ -39,6 +51,7 @@ public class HappyFarmerLevelManager : MonoBehaviour
     {
         CountDown();
         DisplayTimer();
+        DisplayScore();
     }
 
     private void CountDown()
@@ -60,6 +73,14 @@ public class HappyFarmerLevelManager : MonoBehaviour
     private void DisplayTimer()
     {
         timerText.text = (timer * displayTimer / realTimer).ToString("0.00");
+    }
+
+    private void DisplayScore()
+    {
+        if (scoreText)
+        {
+            scoreText.text = "Score: " + CropBehavior.totalScore.ToString();
+        }
     }
 
     private void GameOver()

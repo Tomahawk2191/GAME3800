@@ -125,7 +125,7 @@ Transform:
   - {fileID: 4346040545381111243}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3162262151015595830
+--- !u!114 &4658404063384312104
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,36 +137,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c250a58a54726d14683339c0bc975a72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CropBehavior
-  pickupSFX:
-  - {fileID: 8300000, guid: 82195f473bd375046ad0d8d11f85d179, type: 3}
-  - {fileID: 8300000, guid: 2d1ab2f8be9e038409eccce6c8a1cccf, type: 3}
-  - {fileID: 8300000, guid: 4a802f13a175c094885de11c60402e7d, type: 3}
-  - {fileID: 8300000, guid: e1489f671f64e2041b2b27653beb11c5, type: 3}
-  score: 10
-  lifespan: 2
---- !u!136 &327752924452426342
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8734449236458783331}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 6.552493
-  m_Direction: 1
-  m_Center: {x: 0, y: 2.7762465, z: 0}
+  pickupSFX: {fileID: 0}
+  score: 0
+  lifespan: 0
 --- !u!1 &9025656963693618048
 GameObject:
   m_ObjectHideFlags: 0

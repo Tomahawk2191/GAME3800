@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1561e3a2a8b8e41e19ceb2444d498aee
+guid: a375abaf24eda45b7b5e4e11af268691
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Pixelmania
+  - PixelSix00
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
