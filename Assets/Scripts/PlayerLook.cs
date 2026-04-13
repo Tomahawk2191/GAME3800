@@ -19,10 +19,14 @@ public class PlayerLook : MonoBehaviour
 
         IsEnabled = true;
 <<<<<<< HEAD
+<<<<<<< HEAD
         settingsMenuManager = FindFirstObjectByType<SettingsMenuManager>();
 =======
         settingsMenuManager = FindObjectOfType<SettingsMenuManager>();
 >>>>>>> 9448574 (feat: settings menu ui (#33))
+=======
+        settingsMenuManager = FindFirstObjectByType<SettingsMenuManager>();
+>>>>>>> 8a82176 (feat: settings menu, background audio (#34))
         settingsMenuManager.OnMenuToggle += OnMenuToggle;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
