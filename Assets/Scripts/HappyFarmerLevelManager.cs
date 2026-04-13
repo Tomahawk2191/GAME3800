@@ -13,6 +13,8 @@ public class HappyFarmerLevelManager : MonoBehaviour
 
     [HideInInspector]
     public static float timer;
+
+    private float colorConversionRatio;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -21,6 +23,11 @@ public class HappyFarmerLevelManager : MonoBehaviour
         if (gameOverText)
         {
             gameOverText.text = "";
+        }
+
+        if (RenderSettings.skybox.HasProperty("_Tint"))
+        {
+            colorConversionRatio = RenderSettings.skybox.GetColor("_Tint").r / realTimer;
         }
     }
 
@@ -38,6 +45,12 @@ public class HappyFarmerLevelManager : MonoBehaviour
         {
             timer = 0;
             GameOver();
+        }
+        if (RenderSettings.skybox.HasProperty("_Tint"))
+        {
+            Color nextColor = RenderSettings.skybox.GetColor("_Tint") - new Color(colorConversionRatio * Time.deltaTime, colorConversionRatio * Time.deltaTime, colorConversionRatio * Time.deltaTime, 0);
+
+            RenderSettings.skybox.SetColor("_Tint", nextColor);
         }
     }
 
