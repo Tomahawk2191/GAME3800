@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/TextMesh Pro/Fonts/pixelsix00 SDF.asset.meta
 guid: b80c75cada61f47369b4ca8338efe262
+=======
+guid: 17b7bb7d1a8a4402fb1f5153ab53d611
+>>>>>>> 9448574 (feat: settings menu ui (#33)):Assets/Fonts/pixelsix00 SDF.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

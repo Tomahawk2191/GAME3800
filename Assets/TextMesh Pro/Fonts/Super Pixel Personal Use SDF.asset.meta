@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/TextMesh Pro/Fonts/Super Pixel Personal Use SDF.asset.meta
 guid: b286a726ccaf5419c8de2905efdf6a4e
+=======
+guid: 7aa84b19279214579ac7cf953d8b17a7
+>>>>>>> 9448574 (feat: settings menu ui (#33)):Assets/Fonts/Super Pixel Personal Use SDF.asset.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000

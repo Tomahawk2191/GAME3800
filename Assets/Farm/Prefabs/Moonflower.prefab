@@ -190,6 +190,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2706417675515149804}
+  - component: {fileID: 331016105686139194}
+  - component: {fileID: 1325943990210856069}
   m_Layer: 0
   m_Name: Moonflower
   m_TagString: Untagged
@@ -214,3 +216,45 @@ Transform:
   - {fileID: 990103806901765307}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &331016105686139194
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8734449236458783331}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Height: 8
+  m_Direction: 1
+  m_Center: {x: 0, y: 3, z: 0}
+--- !u!114 &1325943990210856069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8734449236458783331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c250a58a54726d14683339c0bc975a72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CropBehavior
+  pickupSFX:
+  - {fileID: 8300000, guid: 0f3e0e9a339d24a74ac41b1b126e8694, type: 3}
+  - {fileID: 8300000, guid: 7a3e00846421a471286de3d385c897dc, type: 3}
+  - {fileID: 8300000, guid: f1628dbf65fa54512b7471dde6c989c7, type: 3}
+  - {fileID: 8300000, guid: 069654f7be1cc4f7899905020558af75, type: 3}
+  score: 20
+  lifespan: 2
