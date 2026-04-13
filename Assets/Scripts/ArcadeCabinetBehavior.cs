@@ -14,16 +14,26 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     public Texture2D initialScreen;
     public Texture2D nextScreen;
 
+    public AudioClip bootUpSFX;
+    public AudioClip insertSFX;
+
+    public GameObject cinemachineVirtualCamera;
+    public RectTransform leftPillarBox;
+    public RectTransform rightPillarBox;
+    public float pillarBoxSpeed = 20f;
+    public float sceneTransitionTime = 2f;
+
     private bool screenTransitioned;
     private Ray playerDetection;
     private bool coinInserted = false;
+    private Camera _camera;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         playerDetection = new Ray(transform.position, transform.forward);
         ResetScreen();
-        BeginAsyncLoad();
+        StartCoroutine(BeginAsyncLoad());
     }
 
     // Update is called once per frame
@@ -48,16 +58,27 @@ public class ArcadeCabinetBehavior : MonoBehaviour
         if (!screenTransitioned && CoinBehavior.hasCoin)
         {
             arcadeCabinetScreen.texture = nextScreen;
+
+            if(bootUpSFX)
+            {
+                AudioSource.PlayClipAtPoint(bootUpSFX, Camera.main.transform.position);
+                bootUpSFX = null;
+            }
         }
     }
 
     private void CheckPlayer()
     {
-        if(player.Raycast(playerDetection, out RaycastHit hitInfo, maxDistance) && Mouse.current.leftButton.wasPressedThisFrame) 
+        if(coinInserted == false && player.Raycast(playerDetection, out RaycastHit hitInfo, maxDistance) && Mouse.current.leftButton.wasPressedThisFrame) 
         {
-            Debug.Log("Raycast has hit");
             coinInserted = true;
-            SceneManager.LoadScene(nextScene);
+
+            if(insertSFX)
+            {
+                AudioSource.PlayClipAtPoint(insertSFX, Camera.main.transform.position);
+            }
+
+            Invoke(nameof(TransitionScene), insertSFX.length);
         }
     }
 
@@ -73,6 +94,34 @@ public class ArcadeCabinetBehavior : MonoBehaviour
         }
 
         operation.allowSceneActivation = true;
-        Debug.Log("Scene gets loaded here");
+    }
+
+    private void TransitionScene()
+    {
+        cinemachineVirtualCamera.SetActive(true);
+        StartCoroutine(nameof(PillarBox));
+    }
+
+    IEnumerator PillarBox()
+    {
+        if(leftPillarBox && rightPillarBox)
+        {
+            while (leftPillarBox.anchoredPosition.x < 0)
+            {
+                Debug.Log(leftPillarBox.anchoredPosition);
+                float targetX = leftPillarBox.anchoredPosition.x + Time.deltaTime * pillarBoxSpeed;
+                leftPillarBox.anchoredPosition = new Vector2(targetX, 0);
+                rightPillarBox.anchoredPosition = new Vector2(-1f * targetX, 0);
+                yield return new WaitForSecondsRealtime(Time.deltaTime);
+            }
+        }
+        new WaitForSecondsRealtime(sceneTransitionTime);
+        LoadNextScene();
+        yield break;
+    }
+
+    private void LoadNextScene()
+    {
+        SceneManager.LoadScene(nextScene);
     }
 }
