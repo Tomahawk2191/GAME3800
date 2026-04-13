@@ -19,7 +19,7 @@ public class CropBehavior : MonoBehaviour
         Invoke("Despawn", lifespan);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter(Collider other)   
     {
         if (other.gameObject.CompareTag("Player"))
         {
