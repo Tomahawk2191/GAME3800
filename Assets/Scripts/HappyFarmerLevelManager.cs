@@ -48,6 +48,9 @@ public class HappyFarmerLevelManager : MonoBehaviour
 
     private void GameOver()
     {
+        PlayerMovement player = FindAnyObjectByType<PlayerMovement>();
+        player.Disable();
+
         if (gameOverText)
         {
             gameOverText.text = "Game Over\n" + "Score: " + CropBehavior.totalScore;

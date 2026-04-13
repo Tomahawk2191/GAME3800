@@ -48,4 +48,9 @@ public class PlayerMovement : MonoBehaviour
         characterController.Move(currentForceVelocity * Time.deltaTime);
         characterController.Move(currentMoveVelocity * Time.deltaTime);
     }
+
+    public void Disable()
+    {
+        MoveSpeed = 0;
+    }
 }
