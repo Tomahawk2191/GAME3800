@@ -11,6 +11,9 @@ public class HappyFarmerLevelManager : MonoBehaviour
     public TMP_Text scoreText;
     public float gameOverDuration;
     public SceneField nextScene;
+    
+    [SerializeField] private GameObject player;
+    [SerializeField] private AudioClip happyFarmerTheme;
 
     [HideInInspector]
     public static float timer;
@@ -23,6 +26,14 @@ public class HappyFarmerLevelManager : MonoBehaviour
         {
             gameOverText.text = "";
         }
+        
+        AudioSource playerAudio = player.GetComponent<AudioSource>();
+        playerAudio.clip = happyFarmerTheme;
+        playerAudio.loop = true;
+        playerAudio.Play();
+        
+        if (!player)
+            player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame

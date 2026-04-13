@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Farm/UI/panel1.png.meta
 guid: b17855dde4ce7401fbbdb082000f209e
+========
+guid: a3fd119733c6a45bd9be80afcdb1090b
+>>>>>>>> main:Assets/Farm/UI/panel2.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
