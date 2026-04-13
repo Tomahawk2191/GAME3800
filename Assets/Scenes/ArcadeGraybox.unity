@@ -14160,6 +14160,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1595536596}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+--- !u!1 &2061059731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 811203708085764778, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+  m_PrefabInstance: {fileID: 100910185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2061059732 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6710977445034266784, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+  m_PrefabInstance: {fileID: 100910185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2061059734 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5376385710336514208, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+  m_PrefabInstance: {fileID: 100910185}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2061059731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a86a01311ab42b4295ca939af6ebbba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLook
 --- !u!1001 &2062218374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14862,9 +14883,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6541602822183083343, guid: ebdab7f7ac1904f04aac99dabbb30ff6, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2061059731}
+    - target: {fileID: 6541602822183083343, guid: ebdab7f7ac1904f04aac99dabbb30ff6, type: 3}
       propertyPath: exitButton
       value: 
       objectReference: {fileID: 556371270}
+    - target: {fileID: 6541602822183083343, guid: ebdab7f7ac1904f04aac99dabbb30ff6, type: 3}
+      propertyPath: playerLook
+      value: 
+      objectReference: {fileID: 2061059734}
+    - target: {fileID: 6541602822183083343, guid: ebdab7f7ac1904f04aac99dabbb30ff6, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 2061059732}
     - target: {fileID: 6541602822183083343, guid: ebdab7f7ac1904f04aac99dabbb30ff6, type: 3}
       propertyPath: settingsMenu
       value: 

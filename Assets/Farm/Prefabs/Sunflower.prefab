@@ -100,6 +100,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2706417675515149804}
   - component: {fileID: 4658404063384312104}
+  - component: {fileID: 9039062040401268105}
   m_Layer: 0
   m_Name: Sunflower
   m_TagString: Untagged
@@ -137,8 +138,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CropBehavior
   pickupSFX: {fileID: 8300000, guid: c23e170041400dd4aac85b86f8a3c47f, type: 3}
-  score: 0
-  lifespan: 0
+  score: 10
+  lifespan: 5
+--- !u!136 &9039062040401268105
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8734449236458783331}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Height: 8
+  m_Direction: 1
+  m_Center: {x: 0, y: 3, z: 0}
 --- !u!1 &9025656963693618048
 GameObject:
   m_ObjectHideFlags: 0
