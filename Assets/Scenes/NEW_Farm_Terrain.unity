@@ -1866,9 +1866,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2889195389088011461, guid: a62e7e4776317e94ea8e0127b2f84cb5, type: 3}
+      propertyPath: m_Size.x
+      value: 24.32117
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889195389088011461, guid: a62e7e4776317e94ea8e0127b2f84cb5, type: 3}
+      propertyPath: m_Size.z
+      value: 835.071
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889195389088011461, guid: a62e7e4776317e94ea8e0127b2f84cb5, type: 3}
+      propertyPath: m_Center.x
+      value: 0.0039055953
+      objectReference: {fileID: 0}
+    - target: {fileID: 2889195389088011461, guid: a62e7e4776317e94ea8e0127b2f84cb5, type: 3}
+      propertyPath: m_Center.z
+      value: 258.04163
+      objectReference: {fileID: 0}
     - target: {fileID: 5486948562550407897, guid: a62e7e4776317e94ea8e0127b2f84cb5, type: 3}
       propertyPath: m_Name
       value: Fences
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141428143087466610, guid: a62e7e4776317e94ea8e0127b2f84cb5, type: 3}
+      propertyPath: m_Size.x
+      value: 24.32117
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141428143087466610, guid: a62e7e4776317e94ea8e0127b2f84cb5, type: 3}
+      propertyPath: m_Size.z
+      value: 723.43256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141428143087466610, guid: a62e7e4776317e94ea8e0127b2f84cb5, type: 3}
+      propertyPath: m_Center.x
+      value: -0.0039070854
+      objectReference: {fileID: 0}
+    - target: {fileID: 6141428143087466610, guid: a62e7e4776317e94ea8e0127b2f84cb5, type: 3}
+      propertyPath: m_Center.z
+      value: 202.2223
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
