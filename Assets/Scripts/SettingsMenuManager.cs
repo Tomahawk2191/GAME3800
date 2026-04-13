@@ -25,20 +25,23 @@ public class SettingsMenuManager : MonoBehaviour
     
     void Start()
     {
+        settingsMenu.SetActive(false);
+        volumeSlider.value = audioSource.volume;
         volumeSlider.onValueChanged.AddListener(value => audioSource.volume = value);
         exitButton.onClick.AddListener(ExitGame);
         
-        player = GameObject.FindGameObjectWithTag("Player");
         if (!playerLook)
-            playerLook = player.GetComponent<PlayerLook>();
+        {
+            if (player)
+                playerLook = player.GetComponent<PlayerLook>();
+        }
         if (!audioSource)
             audioSource = player.GetComponent<AudioSource>();
-        settingsMenu.SetActive(false);
     }
 
     void OnEnable()  { ToggleMenu.action.performed += OnCancel; }
     void OnDisable() { ToggleMenu.action.performed -= OnCancel; }
-
+    
     // Updates when cancel button (ESC) is pressed
     void OnCancel(InputAction.CallbackContext ctx)
     {
@@ -47,7 +50,6 @@ public class SettingsMenuManager : MonoBehaviour
         Time.timeScale = settingsMenu.activeInHierarchy ? 0 : 1;
         OnMenuToggle?.Invoke();
     }
-
     void ExitGame()
     {
         #if UNITY_EDITOR
