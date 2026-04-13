@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Farm/UI/panel2.png.meta
 guid: a3fd119733c6a45bd9be80afcdb1090b
+========
+guid: 2d54fc4e25c2949c680a5235c44b83c1
+>>>>>>>> main:Assets/Farm/UI/timer.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

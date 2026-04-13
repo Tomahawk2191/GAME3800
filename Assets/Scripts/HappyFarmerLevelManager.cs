@@ -8,6 +8,7 @@ public class HappyFarmerLevelManager : MonoBehaviour
     public float displayTimer;
     public TMP_Text timerText;
     public TMP_Text gameOverText;
+    public TMP_Text scoreText;
     public float gameOverDuration;
     public SceneField nextScene;
     
@@ -40,6 +41,7 @@ public class HappyFarmerLevelManager : MonoBehaviour
     {
         CountDown();
         DisplayTimer();
+        DisplayScore();
     }
 
     private void CountDown()
@@ -55,6 +57,14 @@ public class HappyFarmerLevelManager : MonoBehaviour
     private void DisplayTimer()
     {
         timerText.text = (timer * displayTimer / realTimer).ToString("0.00");
+    }
+
+    private void DisplayScore()
+    {
+        if (scoreText)
+        {
+            scoreText.text = "Score: " + CropBehavior.totalScore.ToString();
+        }
     }
 
     private void GameOver()

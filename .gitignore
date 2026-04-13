@@ -102,7 +102,6 @@ InitTestScene*.unity*
 .idea*
 
 #Lighting Data
-**/LightingData.asset
 **/Lightmap-[0-9]*_comp_dir.png
 **/Lightmap-[0-9]*_comp_dir.png.meta
 **/Lightmap-[0-9]*_comp_shadowmask.png

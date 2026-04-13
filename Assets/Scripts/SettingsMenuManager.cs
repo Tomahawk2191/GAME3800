@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SettingsMenuManager : MonoBehaviour
@@ -32,6 +33,7 @@ public class SettingsMenuManager : MonoBehaviour
             playerLook = player.GetComponent<PlayerLook>();
         if (!audioSource)
             audioSource = player.GetComponent<AudioSource>();
+        settingsMenu.SetActive(false);
     }
 
     void OnEnable()  { ToggleMenu.action.performed += OnCancel; }
