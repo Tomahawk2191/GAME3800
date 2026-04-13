@@ -915,8 +915,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
-=======
->>>>>>> main
 --- !u!1 &341563565
 GameObject:
   m_ObjectHideFlags: 0
