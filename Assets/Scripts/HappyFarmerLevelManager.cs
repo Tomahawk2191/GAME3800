@@ -10,6 +10,7 @@ public class HappyFarmerLevelManager : MonoBehaviour
     public TMP_Text gameOverText;
     public float gameOverDuration;
     public SceneField nextScene;
+    public float startingSkyValue = 115f;
 
     [HideInInspector]
     public static float timer;
@@ -19,6 +20,7 @@ public class HappyFarmerLevelManager : MonoBehaviour
     void Start()
     {
         timer = realTimer;
+        colorConversionRatio = startingSkyValue / realTimer;
 
         if (gameOverText)
         {
@@ -27,7 +29,8 @@ public class HappyFarmerLevelManager : MonoBehaviour
 
         if (RenderSettings.skybox.HasProperty("_Tint"))
         {
-            colorConversionRatio = RenderSettings.skybox.GetColor("_Tint").r / realTimer;
+            float skyBoxAlpha = RenderSettings.skybox.GetColor("_Tint").a;
+            RenderSettings.skybox.SetColor("_Tint", new Color(startingSkyValue, startingSkyValue, startingSkyValue, skyBoxAlpha));
         }
     }
 
