@@ -24,7 +24,7 @@ public class SettingsMenuManager : MonoBehaviour
     
     void Start()
     {
-        volumeSlider.value = AudioListener.volume;
+        volumeSlider.onValueChanged.AddListener(value => audioSource.volume = value);
         exitButton.onClick.AddListener(ExitGame);
         
         player = GameObject.FindGameObjectWithTag("Player");
@@ -45,7 +45,7 @@ public class SettingsMenuManager : MonoBehaviour
         Time.timeScale = settingsMenu.activeInHierarchy ? 0 : 1;
         OnMenuToggle?.Invoke();
     }
-    
+
     void ExitGame()
     {
         #if UNITY_EDITOR
