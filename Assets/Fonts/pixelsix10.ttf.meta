@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5104b4c6cbd814b19bdeab574eef80c0
+guid: 7d88130c5b6b549e8b2b8fc5470c756f
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - pixellife
+  - PixelSix10
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
