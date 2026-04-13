@@ -5,33 +5,26 @@ public class CoinBehavior : MonoBehaviour
 {
     public AudioClip pickupSFX;
     public Transform coinVisual;
-    public float liftAmount;
-    public float liftSpeed;
-    public float dropSpeed;
+    public GameObject highlightObject;
 
     [HideInInspector]
     public static bool hasCoin = false;
 
-    private Vector3 initialPosition;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        initialPosition = coinVisual.position;
+        hasCoin = false;
+        highlightObject.SetActive(false);
     }
 
     public void Raise()
     {
-        coinVisual.position = Vector3.Lerp(
-        coinVisual.position,
-        new Vector3(initialPosition.x, initialPosition.y + liftAmount, initialPosition.z),
-        liftSpeed * Time.deltaTime);
+        highlightObject.SetActive(true);
     }
 
     public void Lower()
     {
-        coinVisual.position = Vector3.Lerp(coinVisual.position, initialPosition, dropSpeed * Time.deltaTime);
-
+        highlightObject.SetActive(false);
     }
 
     public void Collect()
@@ -43,5 +36,6 @@ public class CoinBehavior : MonoBehaviour
         }
         Destroy(gameObject);
         Destroy(coinVisual.gameObject);
+        Destroy(highlightObject);
     }
 }
