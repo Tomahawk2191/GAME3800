@@ -30,6 +30,9 @@ public class HappyFarmerLevelManager : MonoBehaviour
         playerAudio.clip = happyFarmerTheme;
         playerAudio.loop = true;
         playerAudio.Play();
+        
+        if (!player)
+            player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
