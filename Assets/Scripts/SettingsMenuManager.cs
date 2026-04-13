@@ -1,7 +1,10 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+<<<<<<< HEAD
 using UnityEngine.SceneManagement;
+=======
+>>>>>>> 9448574 (feat: settings menu ui (#33))
 using UnityEngine.UI;
 
 public class SettingsMenuManager : MonoBehaviour
@@ -15,7 +18,10 @@ public class SettingsMenuManager : MonoBehaviour
     [SerializeField] private InputActionReference ToggleMenu;
     
     [Header("Player Look")]
+<<<<<<< HEAD
     [SerializeField] private GameObject player;
+=======
+>>>>>>> 9448574 (feat: settings menu ui (#33))
     [SerializeField] private PlayerLook playerLook;
     
     [Header("Audio")]
@@ -25,6 +31,7 @@ public class SettingsMenuManager : MonoBehaviour
     
     void Start()
     {
+<<<<<<< HEAD
         volumeSlider.onValueChanged.AddListener(value => audioSource.volume = value);
         exitButton.onClick.AddListener(ExitGame);
         
@@ -34,12 +41,26 @@ public class SettingsMenuManager : MonoBehaviour
         if (!audioSource)
             audioSource = player.GetComponent<AudioSource>();
         settingsMenu.SetActive(false);
+=======
+        volumeSlider.value = AudioListener.volume;
+        exitButton.onClick.AddListener(ExitGame);
+
+        if (!playerLook)
+        {
+            var player = GameObject.FindGameObjectWithTag("Player");
+            if (player)
+                playerLook = player.GetComponent<PlayerLook>();
+        }
+>>>>>>> 9448574 (feat: settings menu ui (#33))
     }
 
     void OnEnable()  { ToggleMenu.action.performed += OnCancel; }
     void OnDisable() { ToggleMenu.action.performed -= OnCancel; }
 
+<<<<<<< HEAD
     // Updates when cancel button (ESC) is pressed
+=======
+>>>>>>> 9448574 (feat: settings menu ui (#33))
     void OnCancel(InputAction.CallbackContext ctx)
     {
         bool newState = !settingsMenu.activeInHierarchy;
@@ -47,7 +68,11 @@ public class SettingsMenuManager : MonoBehaviour
         Time.timeScale = settingsMenu.activeInHierarchy ? 0 : 1;
         OnMenuToggle?.Invoke();
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 9448574 (feat: settings menu ui (#33))
     void ExitGame()
     {
         #if UNITY_EDITOR
