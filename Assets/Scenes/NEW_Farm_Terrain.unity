@@ -3572,6 +3572,10 @@ PrefabInstance:
       propertyPath: colliderToHit
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6312483656371527507, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6446293664188125128, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 476.981
