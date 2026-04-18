@@ -13848,10 +13848,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 839509986706881009, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: MoveSpeed
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3125547542924750963, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       propertyPath: colliderToHit
       value: 
       objectReference: {fileID: 494690129}
+    - target: {fileID: 5376385710336514208, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: MouseSensitivity.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376385710336514208, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: MouseSensitivity.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312483656371527507, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: amplitude
+      value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6312483656371527507, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: frequency
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6446293664188125128, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24
