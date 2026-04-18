@@ -57,4 +57,14 @@ public class SettingsMenuManager : MonoBehaviour
         #endif
         Application.Quit();
     }
+
+    public void OpenSettings()
+    {
+        settingsMenu.SetActive(true);
+    }
+
+    public void CloseSettings()
+    {
+        settingsMenu.SetActive(false);
+    }
 }

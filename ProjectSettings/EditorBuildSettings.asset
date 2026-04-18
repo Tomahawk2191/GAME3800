@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/OLD_ArcadeGraybox.unity
     guid: 0ea7f735c6d934c9e8fbe2ae41e0e0b9
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 17b41b10092364bb3a92e29c6c871d38
+  - enabled: 1
     path: Assets/Scenes/ArcadeGraybox.unity
     guid: 97045a019b4d6414fbf97c5574bd52ef
   - enabled: 1
