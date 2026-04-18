@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: e5c572c6659a1eb4d9f3c6c0256e7b00, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -6247,15 +6247,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 836310b9be12e4b4f88d15910ed14ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HappyFarmerLevelManager
-  realTimer: 60
+  realTimer: 15
   displayTimer: 60
   timerText: {fileID: 243657208}
   gameOverText: {fileID: 1909834020}
   scoreText: {fileID: 939497442}
   gameOverDuration: 5
   nextScene:
-    m_SceneAsset: {fileID: 102900000, guid: c2ec509fdf6044b2c8ebf2fcb4fb83ae, type: 3}
-    m_SceneName: ArcadeGraybox2
+    m_SceneAsset: {fileID: 102900000, guid: 47a334a99f07bd041aba5b538083dd6f, type: 3}
+    m_SceneName: NEW_Farm_Terrain 2
   player: {fileID: 408639037}
   happyFarmerTheme: {fileID: 8300000, guid: 3e6ccc4d7be0d49778ca310546d2ef29, type: 3}
 --- !u!4 &1940806513
