@@ -8771,8 +8771,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArcadeCabinetBehavior
   nextScene:
-    m_SceneAsset: {fileID: 102900000, guid: b98f61165bd518e49a7f664cd0147905, type: 3}
-    m_SceneName: NEW_Farm_Terrain
+    m_SceneAsset: {fileID: 102900000, guid: 333147612ac0d3746bd0af6bf2289b48, type: 3}
+    m_SceneName: NEW_Farm_Terrain 1
   player: {fileID: 1674059514}
   maxDistance: 1
   arcadeCabinetScreen: {fileID: 1062304705}
