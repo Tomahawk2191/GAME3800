@@ -138,10 +138,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CropBehavior
   pickupSFX:
-  - {fileID: 8300000, guid: 0f3e0e9a339d24a74ac41b1b126e8694, type: 3}
   - {fileID: 8300000, guid: 7a3e00846421a471286de3d385c897dc, type: 3}
   - {fileID: 8300000, guid: f1628dbf65fa54512b7471dde6c989c7, type: 3}
   - {fileID: 8300000, guid: 069654f7be1cc4f7899905020558af75, type: 3}
+  - {fileID: 8300000, guid: 0f3e0e9a339d24a74ac41b1b126e8694, type: 3}
   score: 10
   lifespan: 5
 --- !u!136 &9039062040401268105
