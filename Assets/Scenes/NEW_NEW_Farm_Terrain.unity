@@ -5940,8 +5940,8 @@ MonoBehaviour:
   scoreText: {fileID: 939497442}
   gameOverDuration: 5
   nextScene:
-    m_SceneAsset: {fileID: 102900000, guid: f58e9e04581fa4e9587bd9d04bc2fb46, type: 3}
-    m_SceneName: Arcade2
+    m_SceneAsset: {fileID: 102900000, guid: b98f61165bd518e49a7f664cd0147905, type: 3}
+    m_SceneName: NEW_NEW_Farm_Terrain
   player: {fileID: 408639037}
   happyFarmerTheme: {fileID: 8300000, guid: 3e6ccc4d7be0d49778ca310546d2ef29, type: 3}
 --- !u!4 &1940806513

@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: b71543232772f4ba28d0de988e08252e, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: 70498344f86521d45b9cf1fc6acd09e3, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: e020a4a7061104291bbc5e011932af8e, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -741,10 +741,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 839509986706881009, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: MoveSpeed
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3125547542924750963, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       propertyPath: colliderToHit
       value: 
       objectReference: {fileID: 1003792090}
+    - target: {fileID: 6312483656371527507, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: amplitude
+      value: 0.002
+      objectReference: {fileID: 0}
     - target: {fileID: 6446293664188125128, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.5
@@ -11397,7 +11405,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 0b0a187f7db61114b8fa4a8b7c7fe80b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8eadc4704db63f841a6b158e829497ff, type: 2}
+      objectReference: {fileID: 2100000, guid: cd622416a385373438a0a7a4e09bd7cc, type: 2}
     - target: {fileID: -7511558181221131132, guid: 0b0a187f7db61114b8fa4a8b7c7fe80b, type: 3}
       propertyPath: 'm_Materials.Array.data[1]'
       value: 
