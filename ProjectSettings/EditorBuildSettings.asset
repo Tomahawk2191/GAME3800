@@ -12,20 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/ArcadeGraybox.unity
     guid: 97045a019b4d6414fbf97c5574bd52ef
   - enabled: 1
-    path: Assets/Scenes/NEW_Farm_Terrain.unity
+    path: Assets/Scenes/NEW_NEW_Farm_Terrain.unity
     guid: b98f61165bd518e49a7f664cd0147905
-  - enabled: 0
-    path: Assets/Scenes/TEMP_Arcade2.unity
-    guid: a0d827b5419b343609e78c64e76b1997
   - enabled: 1
-    path: Assets/Scenes/ArcadeGraybox2.unity
-    guid: c2ec509fdf6044b2c8ebf2fcb4fb83ae
+    path: Assets/Scenes/Arcade2.unity
+    guid: f58e9e04581fa4e9587bd9d04bc2fb46
   - enabled: 1
-    path: Assets/Scenes/NEW_Farm_Terrain 1.unity
-    guid: 333147612ac0d3746bd0af6bf2289b48
-  - enabled: 1
-    path: Assets/Scenes/NEW_Farm_Terrain 2.unity
-    guid: 47a334a99f07bd041aba5b538083dd6f
+    path: Assets/Scenes/NEW_NEW_Farm_Terrain2.unity
+    guid: 86b3e2cc05b854700b202f532025b7cb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
