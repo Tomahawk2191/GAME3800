@@ -53,4 +53,9 @@ public class PlayerLook : MonoBehaviour
             playerCamera.localEulerAngles = new Vector3(_rotationXY.x, 0f, 0f);
         }
     }
+    
+    public void SetLookEnabled(bool value)
+    {
+        IsLookEnabled = value;
+    }
 }
