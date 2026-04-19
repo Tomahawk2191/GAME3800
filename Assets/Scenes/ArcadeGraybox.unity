@@ -15009,6 +15009,10 @@ PrefabInstance:
       propertyPath: rightPillarBox
       value: 
       objectReference: {fileID: 312365184}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: nextScene.m_SceneName
+      value: NEW_NEW_Farm_Terrain
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

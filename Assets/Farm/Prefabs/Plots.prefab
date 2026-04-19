@@ -139,11 +139,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CropSpawner
   crop: {fileID: 8734449236458783331, guid: b15d99514cca30049a9d4747cf16f57f, type: 3}
   spawnVals:
-    frequency: 2
-    minXValue: 464
-    maxXValue: 470
-    minZValue: 469
-    maxZValue: 475
+    frequency: 5
+    minXValue: -3
+    maxXValue: 3
+    minZValue: -3
+    maxZValue: 3
 --- !u!1001 &6457441008304703016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -243,11 +243,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CropSpawner
   crop: {fileID: 8734449236458783331, guid: 629fdfd24c605e54ba051edd2c33a1af, type: 3}
   spawnVals:
-    frequency: 5
-    minXValue: 483
-    maxXValue: 489
-    minZValue: 469
-    maxZValue: 475
+    frequency: 2
+    minXValue: -3
+    maxXValue: 3
+    minZValue: -3
+    maxZValue: 3
 --- !u!4 &6780108899760972227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
@@ -357,11 +357,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CropSpawner
   crop: {fileID: 8734449236458783331, guid: 629fdfd24c605e54ba051edd2c33a1af, type: 3}
   spawnVals:
-    frequency: 5
-    minXValue: 464
-    maxXValue: 470
-    minZValue: 457
-    maxZValue: 463
+    frequency: 2
+    minXValue: -3
+    maxXValue: 3
+    minZValue: -3
+    maxZValue: 3
 --- !u!1001 &7964508296289459634
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -461,11 +461,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CropSpawner
   crop: {fileID: 8734449236458783331, guid: b15d99514cca30049a9d4747cf16f57f, type: 3}
   spawnVals:
-    frequency: 2
-    minXValue: 483
-    maxXValue: 489
-    minZValue: 457
-    maxZValue: 463
+    frequency: 5
+    minXValue: -3
+    maxXValue: 3
+    minZValue: -3
+    maxZValue: 3
 --- !u!4 &7569749861214550617 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1d98f0707e467964fa8325e7f6033a1a, type: 3}
