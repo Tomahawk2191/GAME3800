@@ -5960,8 +5960,8 @@ MonoBehaviour:
   scoreText: {fileID: 939497442}
   gameOverDuration: 5
   nextScene:
-    m_SceneAsset: {fileID: 102900000, guid: c2ec509fdf6044b2c8ebf2fcb4fb83ae, type: 3}
-    m_SceneName: ArcadeGraybox2
+    m_SceneAsset: {fileID: 102900000, guid: cb9c26a222c212c4a92fce2093f274e5, type: 3}
+    m_SceneName: ArcadeGraybox 1
   player: {fileID: 408639037}
   happyFarmerTheme: {fileID: 8300000, guid: 3e6ccc4d7be0d49778ca310546d2ef29, type: 3}
 --- !u!4 &1940806513
