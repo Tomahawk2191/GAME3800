@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SettingsMenuManager : MonoBehaviour
@@ -9,6 +10,7 @@ public class SettingsMenuManager : MonoBehaviour
     [SerializeField] private GameObject settingsMenu;
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private Button exitButton;
+    [SerializeField] private SceneField mainMenu;
     
     [Header("Input Action")]
     [SerializeField] private InputActionReference toggleMenu;
@@ -19,11 +21,13 @@ public class SettingsMenuManager : MonoBehaviour
     
     [Header("Audio")]
     [SerializeField] private AudioSource audioSource;
+    
 
     public Action OnMenuToggle;
     
     void Start()
     {
+        Time.timeScale = 1f;
         settingsMenu.SetActive(false);
         volumeSlider.value = audioSource.volume;
         volumeSlider.onValueChanged.AddListener(value => audioSource.volume = value);
@@ -53,9 +57,7 @@ public class SettingsMenuManager : MonoBehaviour
 
     void ExitGame()
     {
-        #if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-        #endif
-        Application.Quit();
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(mainMenu);
     }
 }

@@ -47,6 +47,9 @@ MonoBehaviour:
   settingsMenu: {fileID: 0}
   volumeSlider: {fileID: 0}
   exitButton: {fileID: 0}
+  mainMenu:
+    m_SceneAsset: {fileID: 102900000, guid: 17b41b10092364bb3a92e29c6c871d38, type: 3}
+    m_SceneName: MainMenu
   toggleMenu: {fileID: 7727032971491509709, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   player: {fileID: 0}
   playerLook: {fileID: 0}
