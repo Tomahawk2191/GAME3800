@@ -19,7 +19,10 @@ public class PlayerLook : MonoBehaviour
 
         IsEnabled = true;
         settingsMenuManager = FindFirstObjectByType<SettingsMenuManager>();
-        settingsMenuManager.OnMenuToggle += OnMenuToggle;
+        if (settingsMenuManager)
+        {
+            settingsMenuManager.OnMenuToggle += OnMenuToggle;
+        }
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }

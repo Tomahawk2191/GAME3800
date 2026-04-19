@@ -8793,7 +8793,7 @@ MonoBehaviour:
     m_SceneAsset: {fileID: 102900000, guid: 333147612ac0d3746bd0af6bf2289b48, type: 3}
     m_SceneName: NEW_Farm_Terrain 1
   player: {fileID: 1674059514}
-  maxDistance: 1
+  maxDistance: 4
   arcadeCabinetScreen: {fileID: 1062304705}
   initialScreen: {fileID: 2800000, guid: 2c9fd103f95f7994f909255cf2443694, type: 3}
   nextScreen: {fileID: 2800000, guid: 0cc2940deaf44bb44b1ebe7b48f79d15, type: 3}
@@ -8802,7 +8802,7 @@ MonoBehaviour:
   cinemachineVirtualCamera: {fileID: 306872950}
   leftPillarBox: {fileID: 1358385481}
   rightPillarBox: {fileID: 1358385480}
-  pillarBoxSpeed: 20
+  pillarBoxSpeed: 200
   sceneTransitionTime: 2
 --- !u!1 &1140466065
 GameObject:

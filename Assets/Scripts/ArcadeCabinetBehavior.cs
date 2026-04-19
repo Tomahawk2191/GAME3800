@@ -32,6 +32,7 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     void Start()
     {
         playerDetection = new Ray(transform.position, transform.forward);
+        coinInserted = false;
         ResetScreen();
         StartCoroutine(BeginAsyncLoad());
     }
