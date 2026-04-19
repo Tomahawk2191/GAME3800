@@ -21,7 +21,7 @@ public class CropBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)   
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && HappyFarmerLevelManager.timer > 0)
         {
             PickUp();
         }
