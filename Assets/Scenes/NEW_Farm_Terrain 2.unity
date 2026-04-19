@@ -1307,17 +1307,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!114 &347575509 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7135274050161848409, guid: ac7bf9fe823cf440aa69a8cacb339f50, type: 3}
-  m_PrefabInstance: {fileID: 347575506}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!1001 &355832871
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4494,6 +4483,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 1565596517788048839, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: m_StepOffset
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3125547542924750963, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -6006,7 +5999,7 @@ PrefabInstance:
     - target: {fileID: 6541602822183083343, guid: ebdab7f7ac1904f04aac99dabbb30ff6, type: 3}
       propertyPath: volumeSlider
       value: 
-      objectReference: {fileID: 347575509}
+      objectReference: {fileID: 0}
     - target: {fileID: 6983887257425132239, guid: ebdab7f7ac1904f04aac99dabbb30ff6, type: 3}
       propertyPath: m_Name
       value: MenuManager
