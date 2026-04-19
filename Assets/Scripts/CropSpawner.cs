@@ -26,7 +26,7 @@ public class CropSpawner : MonoBehaviour
 
     private void Update()
     {
-        if(HappyFarmerLevelManager.timer > 0)
+        if (HappyFarmerLevelManager.timer > 0)
         {
             SpawnCrops();
         }
@@ -34,9 +34,9 @@ public class CropSpawner : MonoBehaviour
 
     private void SpawnCrops()
     {
-        if(count <= 0)
+        if (count <= 0)
         {
-            Instantiate(crop, new Vector3(Random.Range(spawnVals.minXValue, spawnVals.maxXValue), transform.position.y, Random.Range(spawnVals.minZValue, spawnVals.maxZValue)), transform.rotation);
+            Instantiate(crop, new Vector3(transform.position.x + Random.Range(spawnVals.minXValue, spawnVals.maxXValue), transform.position.y, transform.position.z + Random.Range(spawnVals.minZValue, spawnVals.maxZValue)), transform.rotation);
             count = spawnVals.frequency;
         } else
         {
