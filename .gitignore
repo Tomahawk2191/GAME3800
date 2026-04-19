@@ -110,3 +110,6 @@ InitTestScene*.unity*
 **/Lightmap-[0-9]*_comp_light.exr.meta
 **/ReflectionProbe-[0-9]*.exr
 **/ReflectionProbe-[0-9]*.exr.meta
+
+#Builds
+**/Builds
