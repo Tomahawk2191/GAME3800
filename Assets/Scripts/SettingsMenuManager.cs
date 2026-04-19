@@ -1,7 +1,6 @@
 using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SettingsMenuManager : MonoBehaviour
@@ -12,7 +11,7 @@ public class SettingsMenuManager : MonoBehaviour
     [SerializeField] private Button exitButton;
     
     [Header("Input Action")]
-    [SerializeField] private InputActionReference ToggleMenu;
+    [SerializeField] private InputActionReference toggleMenu;
     
     [Header("Player Look")]
     [SerializeField] private GameObject player;
@@ -39,10 +38,11 @@ public class SettingsMenuManager : MonoBehaviour
             audioSource = player.GetComponent<AudioSource>();
     }
 
-    void OnEnable()  { ToggleMenu.action.performed += OnCancel; }
-    void OnDisable() { ToggleMenu.action.performed -= OnCancel; }
+    void OnEnable()  { toggleMenu.action.performed += OnCancel; }
+    void OnDisable() { toggleMenu.action.performed -= OnCancel; }
+    void OnDestroy() { toggleMenu.action.performed -= OnCancel; }
     
-    // Updates when cancel button (ESC) is pressed
+    // Updates when the cancel button (ESC) is pressed
     void OnCancel(InputAction.CallbackContext ctx)
     {
         bool newState = !settingsMenu.activeInHierarchy;
@@ -50,21 +50,12 @@ public class SettingsMenuManager : MonoBehaviour
         Time.timeScale = settingsMenu.activeInHierarchy ? 0 : 1;
         OnMenuToggle?.Invoke();
     }
+
     void ExitGame()
     {
         #if UNITY_EDITOR
             UnityEditor.EditorApplication.isPlaying = false;
         #endif
         Application.Quit();
-    }
-
-    public void OpenSettings()
-    {
-        settingsMenu.SetActive(true);
-    }
-
-    public void CloseSettings()
-    {
-        settingsMenu.SetActive(false);
     }
 }

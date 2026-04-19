@@ -15149,7 +15149,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 196259299761239261, guid: ac7bf9fe823cf440aa69a8cacb339f50, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1624684972654221559, guid: ac7bf9fe823cf440aa69a8cacb339f50, type: 3}
       propertyPath: m_IsActive
@@ -15261,11 +15261,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7329175458235955364, guid: ac7bf9fe823cf440aa69a8cacb339f50, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8904817790842801349, guid: ac7bf9fe823cf440aa69a8cacb339f50, type: 3}
       propertyPath: m_Name
       value: SettingsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8904817790842801349, guid: ac7bf9fe823cf440aa69a8cacb339f50, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
