@@ -745,6 +745,14 @@ PrefabInstance:
       propertyPath: colliderToHit
       value: 
       objectReference: {fileID: 1003792090}
+    - target: {fileID: 5376385710336514208, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: mouseSensitivity.x
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376385710336514208, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: mouseSensitivity.y
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 6446293664188125128, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24
