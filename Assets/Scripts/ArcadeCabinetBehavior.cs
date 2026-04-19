@@ -100,6 +100,13 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     private void TransitionScene()
     {
         cinemachineVirtualCamera.SetActive(true);
+        PlayerLook playerLook = FindObjectOfType<PlayerLook>();
+        if (playerLook)
+            playerLook.SetLookEnabled(false);
+        
+        PlayerMovement playerMovement = FindObjectOfType<PlayerMovement>();
+        if (playerMovement)
+            playerMovement.enabled = false;
         StartCoroutine(nameof(PillarBox));
     }
 
