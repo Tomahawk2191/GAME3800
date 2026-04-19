@@ -10,9 +10,10 @@ public class SettingsMenuManager : MonoBehaviour
     [SerializeField] private GameObject settingsMenu;
     [SerializeField] private Slider volumeSlider;
     [SerializeField] private Button exitButton;
+    [SerializeField] private SceneField mainMenu;
     
     [Header("Input Action")]
-    [SerializeField] private InputActionReference ToggleMenu;
+    [SerializeField] private InputActionReference toggleMenu;
     
     [Header("Player Look")]
     [SerializeField] private GameObject player;
@@ -20,11 +21,13 @@ public class SettingsMenuManager : MonoBehaviour
     
     [Header("Audio")]
     [SerializeField] private AudioSource audioSource;
+    
 
     public Action OnMenuToggle;
     
     void Start()
     {
+        Time.timeScale = 1f;
         settingsMenu.SetActive(false);
         volumeSlider.value = audioSource.volume;
         volumeSlider.onValueChanged.AddListener(value => audioSource.volume = value);
@@ -39,10 +42,11 @@ public class SettingsMenuManager : MonoBehaviour
             audioSource = player.GetComponent<AudioSource>();
     }
 
-    void OnEnable()  { ToggleMenu.action.performed += OnCancel; }
-    void OnDisable() { ToggleMenu.action.performed -= OnCancel; }
+    void OnEnable()  { toggleMenu.action.performed += OnCancel; }
+    void OnDisable() { toggleMenu.action.performed -= OnCancel; }
+    void OnDestroy() { toggleMenu.action.performed -= OnCancel; }
     
-    // Updates when cancel button (ESC) is pressed
+    // Updates when the cancel button (ESC) is pressed
     void OnCancel(InputAction.CallbackContext ctx)
     {
         bool newState = !settingsMenu.activeInHierarchy;
@@ -50,21 +54,10 @@ public class SettingsMenuManager : MonoBehaviour
         Time.timeScale = settingsMenu.activeInHierarchy ? 0 : 1;
         OnMenuToggle?.Invoke();
     }
+
     void ExitGame()
     {
-        #if UNITY_EDITOR
-            UnityEditor.EditorApplication.isPlaying = false;
-        #endif
-        Application.Quit();
-    }
-
-    public void OpenSettings()
-    {
-        settingsMenu.SetActive(true);
-    }
-
-    public void CloseSettings()
-    {
-        settingsMenu.SetActive(false);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(mainMenu);
     }
 }

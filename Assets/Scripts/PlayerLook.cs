@@ -3,56 +3,54 @@ using UnityEngine.InputSystem;
 
 public class PlayerLook : MonoBehaviour
 {
-    public Transform PlayerCamera;
-    public Vector2 MouseSensitivity;
-    public InputActionReference LookActionReference;
-    private Vector2 rotationXY;
-    private SettingsMenuManager settingsMenuManager;
-    private bool IsEnabled { get; set; }
+    public Transform playerCamera;
+    public Vector2 mouseSensitivity;
+    public InputActionReference lookActionReference;
+    private Vector2 _rotationXY;
+    private SettingsMenuManager _settingsMenuManager;
+    private bool IsLookEnabled { get; set; }
     
     void Start()
     {
-        if (!LookActionReference)
+        if (!lookActionReference)
         {
             Debug.LogError("Look Action Reference is not set! Use Player/Look for the player model.");
         }
 
-        IsEnabled = true;
-        settingsMenuManager = FindFirstObjectByType<SettingsMenuManager>();
-        if (settingsMenuManager)
-        {
-            settingsMenuManager.OnMenuToggle += OnMenuToggle;
-        }
+        IsLookEnabled = true;
+        _settingsMenuManager = FindFirstObjectByType<SettingsMenuManager>();
+        if (_settingsMenuManager)
+            _settingsMenuManager.OnMenuToggle += OnMenuToggle;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
 
     private void OnMenuToggle()
     {
-        IsEnabled = !IsEnabled;
-        Cursor.lockState = IsEnabled ? CursorLockMode.Locked : CursorLockMode.None;
-        Cursor.visible = !IsEnabled;
+        IsLookEnabled = !IsLookEnabled;
+        Cursor.lockState = IsLookEnabled ? CursorLockMode.Locked : CursorLockMode.Confined;
+        Cursor.visible = !IsLookEnabled;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!PlayerCamera)
+        if (!playerCamera)
         {
             return;
         }
 
-        if (IsEnabled)
+        if (IsLookEnabled)
         {
-            var playerLook = LookActionReference.action.ReadValue<Vector2>();
+            var playerLook = lookActionReference.action.ReadValue<Vector2>();
 
-            rotationXY.x -= playerLook.y * MouseSensitivity.y;
-            rotationXY.y += playerLook.x * MouseSensitivity.x;
+            _rotationXY.x -= playerLook.y * mouseSensitivity.y;
+            _rotationXY.y += playerLook.x * mouseSensitivity.x;
 
-            rotationXY.x = Mathf.Clamp(rotationXY.x, -90f, 90f);
+            _rotationXY.x = Mathf.Clamp(_rotationXY.x, -90f, 90f);
 
-            transform.eulerAngles = new Vector3(0f, rotationXY.y, 0f);
-            PlayerCamera.localEulerAngles = new Vector3(rotationXY.x, 0f, 0f);
+            transform.eulerAngles = new Vector3(0f, _rotationXY.y, 0f);
+            playerCamera.localEulerAngles = new Vector3(_rotationXY.x, 0f, 0f);
         }
     }
 }
