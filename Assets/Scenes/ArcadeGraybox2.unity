@@ -5710,7 +5710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5564062773263757217, guid: e4173245d1690794c8026f9ec032aa3b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.45
+      value: -41.947998
       objectReference: {fileID: 0}
     - target: {fileID: 5564062773263757217, guid: e4173245d1690794c8026f9ec032aa3b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5718,7 +5718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5564062773263757217, guid: e4173245d1690794c8026f9ec032aa3b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 7.38
+      value: 9.92
       objectReference: {fileID: 0}
     - target: {fileID: 5564062773263757217, guid: e4173245d1690794c8026f9ec032aa3b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8745,8 +8745,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ArcadeCabinetBehavior
   nextScene:
-    m_SceneAsset: {fileID: 102900000, guid: 333147612ac0d3746bd0af6bf2289b48, type: 3}
-    m_SceneName: NEW_Farm_Terrain 1
+    m_SceneAsset: {fileID: 102900000, guid: 47a334a99f07bd041aba5b538083dd6f, type: 3}
+    m_SceneName: NEW_Farm_Terrain 2
   player: {fileID: 1674059514}
   maxDistance: 4
   arcadeCabinetScreen: {fileID: 1062304705}
@@ -9900,7 +9900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 36c285721674fbc4f9b349b12ab1b87c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.228
+      value: -21.27
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 36c285721674fbc4f9b349b12ab1b87c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -9908,7 +9908,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 36c285721674fbc4f9b349b12ab1b87c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.2
+      value: 2.34
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 36c285721674fbc4f9b349b12ab1b87c, type: 3}
       propertyPath: m_LocalRotation.w
