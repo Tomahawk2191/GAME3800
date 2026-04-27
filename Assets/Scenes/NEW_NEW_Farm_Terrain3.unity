@@ -20,13 +20,13 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.9568628, g: 0.6431373, b: 0.3764706, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 217d364a7b3d6439385dd81333c160a2, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 410087040}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 12b899a1b710e45ef90cb6c9be6aeac8, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 5112d06d8746a418fb79af8c33f72bab, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -1377,6 +1377,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a86a01311ab42b4295ca939af6ebbba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerLook
+--- !u!136 &408639041 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 702077074596502826, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+  m_PrefabInstance: {fileID: 1579430261}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,13 +1473,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.19396336, y: -0.2184018, z: 0.006546017, w: 0.9563661}
+  m_LocalRotation: {x: 0.037066974, y: 0.037696794, z: -0.028859973, w: 0.99818444}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 21.954, y: -26.594, z: -4.465}
+  m_LocalEulerAnglesHint: {x: 4.369, y: 4.205, z: -3.152}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1928,6 +1933,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 24.321173, y: 259.0997, z: 318.98822}
   m_Center: {x: -0.0000009536745, y: 0, z: -1.3552527e-20}
+--- !u!224 &643226377 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5662967083034535653, guid: 6ff9d662734c5424eab7d2365c1882e0, type: 3}
+  m_PrefabInstance: {fileID: 1684787505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &784646354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3053,6 +3063,87 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 24.321167, y: 259.0997, z: 318.98816}
   m_Center: {x: -0.0000009536743, y: 0, z: 0}
+--- !u!1001 &1101668470
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 182081709787785137, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_Name
+      value: Happy Farmer Cabinet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 461.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 147.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 303.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7605663
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.64926034
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 80.972
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 408639041}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: isEndingScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: leftPillarBox
+      value: 
+      objectReference: {fileID: 643226377}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: rightPillarBox
+      value: 
+      objectReference: {fileID: 1812698583}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: nextScene.m_SceneName
+      value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: nextScene.m_SceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 17b41b10092364bb3a92e29c6c871d38, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
 --- !u!1001 &1192512066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4254,6 +4345,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6710977445034266784, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 3e6ccc4d7be0d49778ca310546d2ef29, type: 3}
     - target: {fileID: 7593700800802014138, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       propertyPath: m_RenderPostProcessing
       value: 1
@@ -4857,7 +4952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7556979785912491346, guid: 6ff9d662734c5424eab7d2365c1882e0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5712,6 +5807,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 24.321173, y: 259.0997, z: 318.98822}
   m_Center: {x: -0.0039072037, y: 0, z: 1.3552527e-20}
+--- !u!224 &1812698583 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 690351200346849381, guid: 6ff9d662734c5424eab7d2365c1882e0, type: 3}
+  m_PrefabInstance: {fileID: 1684787505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1904847104
 GameObject:
   m_ObjectHideFlags: 0
@@ -5937,7 +6037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 836310b9be12e4b4f88d15910ed14ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HappyFarmerLevelManager
-  realTimer: 60
+  realTimer: 15
   displayTimer: 60
   timerText: {fileID: 243657208}
   gameOverText: {fileID: 1909834020}
@@ -5946,8 +6046,10 @@ MonoBehaviour:
   nextScene:
     m_SceneAsset: {fileID: 102900000, guid: cb3b48574eae24de1958a2f20d2fb651, type: 3}
     m_SceneName: Arcade3
+  isEndingScene: 1
   player: {fileID: 408639037}
   happyFarmerTheme: {fileID: 8300000, guid: 3e6ccc4d7be0d49778ca310546d2ef29, type: 3}
+  gameOverTheme: {fileID: 8300000, guid: 7ad1169d903584f93bf8b5d02011ad77, type: 3}
 --- !u!4 &1940806513
 Transform:
   m_ObjectHideFlags: 0
@@ -6087,3 +6189,4 @@ SceneRoots:
   - {fileID: 1657693846}
   - {fileID: 1940806513}
   - {fileID: 878531408}
+  - {fileID: 1101668470}

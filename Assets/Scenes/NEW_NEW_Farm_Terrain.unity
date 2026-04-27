@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 1a80c6befa2e04f9abc3bf6447b682c3, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 5112d06d8746a418fb79af8c33f72bab, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -4254,6 +4254,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6710977445034266784, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 3e6ccc4d7be0d49778ca310546d2ef29, type: 3}
     - target: {fileID: 7593700800802014138, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       propertyPath: m_RenderPostProcessing
       value: 1
@@ -5942,8 +5946,10 @@ MonoBehaviour:
   nextScene:
     m_SceneAsset: {fileID: 102900000, guid: f58e9e04581fa4e9587bd9d04bc2fb46, type: 3}
     m_SceneName: Arcade2
+  isEndingScene: 0
   player: {fileID: 408639037}
   happyFarmerTheme: {fileID: 8300000, guid: 3e6ccc4d7be0d49778ca310546d2ef29, type: 3}
+  gameOverTheme: {fileID: 0}
 --- !u!4 &1940806513
 Transform:
   m_ObjectHideFlags: 0

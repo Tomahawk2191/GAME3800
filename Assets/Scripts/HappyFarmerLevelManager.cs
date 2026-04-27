@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
@@ -11,10 +12,13 @@ public class HappyFarmerLevelManager : MonoBehaviour
     public TMP_Text scoreText;
     public float gameOverDuration;
     public SceneField nextScene;
-    
+
+    [SerializeField] private bool isEndingScene = false;
     [SerializeField] private GameObject player;
     [SerializeField] private AudioClip happyFarmerTheme;
-
+    [SerializeField] private AudioClip gameOverTheme; 
+    private AudioSource playerAudio;
+    private bool isGameOver = false;
     [HideInInspector]
     public static float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -27,7 +31,7 @@ public class HappyFarmerLevelManager : MonoBehaviour
             gameOverText.text = "";
         }
         
-        AudioSource playerAudio = player.GetComponent<AudioSource>();
+        playerAudio = player.GetComponent<AudioSource>();
         playerAudio.clip = happyFarmerTheme;
         playerAudio.loop = true;
         playerAudio.Play();
@@ -50,7 +54,8 @@ public class HappyFarmerLevelManager : MonoBehaviour
         if (timer <= 0)
         {
             timer = 0;
-            GameOver();
+            if (!isGameOver)
+                GameOver();
         }
     }
 
@@ -69,16 +74,41 @@ public class HappyFarmerLevelManager : MonoBehaviour
 
     private void GameOver()
     {
+        isGameOver = true;
         if (gameOverText)
         {
             gameOverText.text = "Game Over\n" + "Score: " + CropBehavior.totalScore;
         }
 
+        if (isEndingScene)
+        {
+            Debug.LogWarning("Starting ending sequence");
+            StartCoroutine(EndingSequence());
+            return;
+        }
         Invoke("LoadNextScene", gameOverDuration);
     }
 
     private void LoadNextScene()
     {
         SceneManager.LoadScene(nextScene);
+    }
+
+    IEnumerator EndingSequence()
+    {
+        yield return new WaitForSeconds(gameOverDuration);
+        
+        if (gameOverText)
+        {
+            gameOverText.gameObject.SetActive(false);
+        }
+        
+        if (playerAudio.isPlaying)
+            playerAudio.Stop();
+        playerAudio.loop = true;
+        playerAudio.clip = gameOverTheme;
+        playerAudio.Play();
+        
+        yield break;
     }
 }
