@@ -5937,7 +5937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 836310b9be12e4b4f88d15910ed14ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HappyFarmerLevelManager
-  realTimer: 60
+  realTimer: 30
   displayTimer: 60
   timerText: {fileID: 243657208}
   gameOverText: {fileID: 1909834020}
