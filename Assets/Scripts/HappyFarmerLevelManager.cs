@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
@@ -11,10 +12,12 @@ public class HappyFarmerLevelManager : MonoBehaviour
     public TMP_Text scoreText;
     public float gameOverDuration;
     public SceneField nextScene;
-    
+
+    [SerializeField] private bool isEndingScene = false;
     [SerializeField] private GameObject player;
     [SerializeField] private AudioClip happyFarmerTheme;
-
+    [SerializeField] private AudioClip gameOverTheme; 
+    private AudioSource playerAudio;
     [HideInInspector]
     public static float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -27,7 +30,7 @@ public class HappyFarmerLevelManager : MonoBehaviour
             gameOverText.text = "";
         }
         
-        AudioSource playerAudio = player.GetComponent<AudioSource>();
+        playerAudio = player.GetComponent<AudioSource>();
         playerAudio.clip = happyFarmerTheme;
         playerAudio.loop = true;
         playerAudio.Play();
@@ -74,11 +77,29 @@ public class HappyFarmerLevelManager : MonoBehaviour
             gameOverText.text = "Game Over\n" + "Score: " + CropBehavior.totalScore;
         }
 
+        if (isEndingScene)
+        {
+            StartCoroutine(EndingSequence());
+        }
         Invoke("LoadNextScene", gameOverDuration);
     }
 
     private void LoadNextScene()
     {
         SceneManager.LoadScene(nextScene);
+    }
+
+    IEnumerator EndingSequence()
+    {
+        Debug.LogWarning("Starting ending sequence");
+        yield return new WaitForSeconds(gameOverDuration);
+        if (gameOverText)
+        {
+            gameOverText.gameObject.SetActive(false);
+        }
+        
+        playerAudio.Stop();
+        playerAudio.clip = gameOverTheme;
+        yield return null;
     }
 }
