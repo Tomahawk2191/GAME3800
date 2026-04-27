@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Rendering.HighDefinition;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -27,6 +28,8 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     private Ray playerDetection;
     private bool coinInserted = false;
     private Camera _camera;
+    
+    [SerializeField] private bool isEndingScene = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -42,6 +45,12 @@ public class ArcadeCabinetBehavior : MonoBehaviour
     {
         UpdateScreen();
         Debug.DrawRay(transform.position, transform.forward * maxDistance, Color.red);
+
+        if (isEndingScene)
+        {
+            CheckPlayerEnding();
+        }
+        
         if(CoinBehavior.hasCoin)
         {
             CheckPlayer();
@@ -79,6 +88,20 @@ public class ArcadeCabinetBehavior : MonoBehaviour
                 AudioSource.PlayClipAtPoint(insertSFX, Camera.main.transform.position);
             }
 
+            Invoke(nameof(TransitionScene), insertSFX.length);
+        }
+    }
+
+    private void CheckPlayerEnding()
+    {
+        if (player.Raycast(playerDetection, out RaycastHit hitInfo, maxDistance) &&
+            Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            if (insertSFX)
+            {
+                AudioSource.PlayClipAtPoint(insertSFX, Camera.main.transform.position);
+            }
+            
             Invoke(nameof(TransitionScene), insertSFX.length);
         }
     }

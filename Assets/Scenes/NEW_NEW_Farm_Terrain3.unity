@@ -1377,6 +1377,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a86a01311ab42b4295ca939af6ebbba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerLook
+--- !u!136 &408639041 stripped
+CapsuleCollider:
+  m_CorrespondingSourceObject: {fileID: 702077074596502826, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+  m_PrefabInstance: {fileID: 1579430261}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,6 +1933,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 24.321173, y: 259.0997, z: 318.98822}
   m_Center: {x: -0.0000009536745, y: 0, z: -1.3552527e-20}
+--- !u!224 &643226377 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 5662967083034535653, guid: 6ff9d662734c5424eab7d2365c1882e0, type: 3}
+  m_PrefabInstance: {fileID: 1684787505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &784646354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3105,6 +3115,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 408639041}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: isEndingScene
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: leftPillarBox
+      value: 
+      objectReference: {fileID: 643226377}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: rightPillarBox
+      value: 
+      objectReference: {fileID: 1812698583}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: nextScene.m_SceneName
+      value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8868486590794792864, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: nextScene.m_SceneAsset
+      value: 
+      objectReference: {fileID: 102900000, guid: 17b41b10092364bb3a92e29c6c871d38, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5773,6 +5807,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 24.321173, y: 259.0997, z: 318.98822}
   m_Center: {x: -0.0039072037, y: 0, z: 1.3552527e-20}
+--- !u!224 &1812698583 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 690351200346849381, guid: 6ff9d662734c5424eab7d2365c1882e0, type: 3}
+  m_PrefabInstance: {fileID: 1684787505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1904847104
 GameObject:
   m_ObjectHideFlags: 0
@@ -5998,7 +6037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 836310b9be12e4b4f88d15910ed14ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HappyFarmerLevelManager
-  realTimer: 60
+  realTimer: 5
   displayTimer: 60
   timerText: {fileID: 243657208}
   gameOverText: {fileID: 1909834020}
@@ -6007,10 +6046,10 @@ MonoBehaviour:
   nextScene:
     m_SceneAsset: {fileID: 102900000, guid: cb3b48574eae24de1958a2f20d2fb651, type: 3}
     m_SceneName: Arcade3
-  isEndingScene: 0
+  isEndingScene: 1
   player: {fileID: 408639037}
   happyFarmerTheme: {fileID: 8300000, guid: 3e6ccc4d7be0d49778ca310546d2ef29, type: 3}
-  gameOverTheme: {fileID: 0}
+  gameOverTheme: {fileID: 8300000, guid: 7ad1169d903584f93bf8b5d02011ad77, type: 3}
 --- !u!4 &1940806513
 Transform:
   m_ObjectHideFlags: 0

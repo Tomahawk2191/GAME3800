@@ -18,6 +18,7 @@ public class HappyFarmerLevelManager : MonoBehaviour
     [SerializeField] private AudioClip happyFarmerTheme;
     [SerializeField] private AudioClip gameOverTheme; 
     private AudioSource playerAudio;
+    private bool isGameOver = false;
     [HideInInspector]
     public static float timer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -53,7 +54,8 @@ public class HappyFarmerLevelManager : MonoBehaviour
         if (timer <= 0)
         {
             timer = 0;
-            GameOver();
+            if (!isGameOver)
+                GameOver();
         }
     }
 
@@ -72,6 +74,7 @@ public class HappyFarmerLevelManager : MonoBehaviour
 
     private void GameOver()
     {
+        isGameOver = true;
         if (gameOverText)
         {
             gameOverText.text = "Game Over\n" + "Score: " + CropBehavior.totalScore;
@@ -79,7 +82,9 @@ public class HappyFarmerLevelManager : MonoBehaviour
 
         if (isEndingScene)
         {
+            Debug.LogWarning("Starting ending sequence");
             StartCoroutine(EndingSequence());
+            return;
         }
         Invoke("LoadNextScene", gameOverDuration);
     }
@@ -91,15 +96,19 @@ public class HappyFarmerLevelManager : MonoBehaviour
 
     IEnumerator EndingSequence()
     {
-        Debug.LogWarning("Starting ending sequence");
         yield return new WaitForSeconds(gameOverDuration);
+        
         if (gameOverText)
         {
             gameOverText.gameObject.SetActive(false);
         }
         
-        playerAudio.Stop();
+        if (playerAudio.isPlaying)
+            playerAudio.Stop();
+        playerAudio.loop = true;
         playerAudio.clip = gameOverTheme;
-        yield return null;
+        playerAudio.Play();
+        
+        yield break;
     }
 }
