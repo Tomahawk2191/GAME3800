@@ -1468,13 +1468,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.19396336, y: -0.2184018, z: 0.006546017, w: 0.9563661}
+  m_LocalRotation: {x: 0.037066974, y: 0.037696794, z: -0.028859973, w: 0.99818444}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 21.954, y: -26.594, z: -4.465}
+  m_LocalEulerAnglesHint: {x: 4.369, y: 4.205, z: -3.152}
 --- !u!114 &410087042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3053,6 +3053,63 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 24.321167, y: 259.0997, z: 318.98816}
   m_Center: {x: -0.0000009536743, y: 0, z: 0}
+--- !u!1001 &1101668470
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 182081709787785137, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_Name
+      value: Happy Farmer Cabinet
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 461.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 147.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 303.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7605663
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.64926034
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 80.972
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618088559026045849, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 27eb93f4855874d39a70cc561cdf299d, type: 3}
 --- !u!1001 &1192512066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4254,6 +4311,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6710977445034266784, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 3e6ccc4d7be0d49778ca310546d2ef29, type: 3}
     - target: {fileID: 7593700800802014138, guid: 7d946264bb8a8c648933b62e3bf996d3, type: 3}
       propertyPath: m_RenderPostProcessing
       value: 1
@@ -4857,7 +4918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7556979785912491346, guid: 6ff9d662734c5424eab7d2365c1882e0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5946,8 +6007,10 @@ MonoBehaviour:
   nextScene:
     m_SceneAsset: {fileID: 102900000, guid: cb3b48574eae24de1958a2f20d2fb651, type: 3}
     m_SceneName: Arcade3
+  isEndingScene: 0
   player: {fileID: 408639037}
   happyFarmerTheme: {fileID: 8300000, guid: 3e6ccc4d7be0d49778ca310546d2ef29, type: 3}
+  gameOverTheme: {fileID: 0}
 --- !u!4 &1940806513
 Transform:
   m_ObjectHideFlags: 0
@@ -6087,3 +6150,4 @@ SceneRoots:
   - {fileID: 1657693846}
   - {fileID: 1940806513}
   - {fileID: 878531408}
+  - {fileID: 1101668470}
